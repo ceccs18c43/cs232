@@ -1,0 +1,37 @@
+CEC CS 18 43
+NIVEA GIGEN
+
+--------------------------------
+#1: Aim/task
+ NETWORKING TASK(t3)
+---------------------------------
+Command/Shell script/Program name
+scp
+ssh
+rsync
+---------------------------------
+
+Output: 
+# ssh cs18c43@192.168.0.30,is to open a secured connection to remote device.
+# scp report.txtcs18c43@192.168.0.30:0302,this is used to upload report.txt to 0302/ in the host 192.168.0.30
+# rsync -av 0302/test/,is used to sync the files across 0302/ and test/
+
+-------------------
+
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
