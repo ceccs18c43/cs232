@@ -1,0 +1,85 @@
+Script started on Thursday 01 January 1970 07:27:25 AM IST
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ ls
+[0m[01;34mcs232[0m  work.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ ls-l
+ls-l: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ C[Kcat >nivea.txt
+nivea paru      
+paru 
+seba
+^Z
+[1]+  Stopped                 cat > nivea.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ cat nivea.txt
+nivea 
+paru 
+seba
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ alias
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias grep='grep --color=auto'
+alias l='ls -CF'
+alias la='ls -A'
+alias ll='ls -alF'
+alias ls='ls --color=auto'
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ alias[K[K[K[K[Ksort nivea .txt
+sort: open failed: nivea: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ sort nivea.txt
+nivea 
+paru 
+seba
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ cut -b 2.t[K[K nivea.txt
+i
+a
+e
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ ls
+[0m[01;34mcs232[0m  nivea.txt  work.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ grep nivea nivea.txt
+[01;31m[Knivea[m[K 
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ paste nivea.txt work[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat < sas .txt
+bash: sas: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ cat<[K <sas[K[K[K sas.txt
+bash: sas.txt: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ cat >ni.txt
+1
+2
+3
+
+4 4
+^Z
+[2]+  Stopped                 cat > ni.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ paste nivea.txt ni.txt
+nivea 	1
+paru 	2
+seba	3
+	
+	4
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ join r.1.txt r.nivea.txt
+join: r.1.txt: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ [K]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ [K]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ cat nivea.txt.[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcut -b 2.txt
+cut: invalid byte or field list
+Try `cut --help' for more information.
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ cut -b 2[K[K[K[K[K[K[K[Kdir
+cs232  ni.txt  nivea.txt  work.txt
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ [K]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ cd 232
+bash: cd: 232: No such file or directory
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ cs232
+cs232: command not found
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43s4c1@lab2-AcerPower-Series:~/ceccs18c43$ cd cs232
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232$ git init
+Reinitialized existing Git repository in /home/s4c1/ceccs18c43/cs232/.git/
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232$ git remote add origin https ://github.com/ceccs18c43/cs232
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232$ git add 2701
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232$ git commit
+[?1049h[1;35r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.2.6         File: .git/COMMIT_EDITMSG                        [4;1H(B[m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d# On branch master[7d#[8d# Initial commit[9d#[10d# Changes to be committed:[11d#   (use "git rm --cached <file>..." to unstage)[12d#[13d#[9Gnew file:   2701/ni.txt[14d#[9Gnew file:   2701/nivea.txt[15d#[9Gnew file:   2701/work.txt[16d#[17d# Untracked files:[18d#   (use "git add <file>..." to include in what will be committed)[19d#[20d#[9Gn.txt[21d#[9Gni.txt[33;29H(B[0;7m[ Read 19 lines ][34d^G(B[m Get Help (B[0;7m^O(B[m WriteOut (B[0;7m^R(B[m Read File(B[0;7m^Y(B[m Prev Page(B[0;7m^K(B[m Cut Text (B[0;7m^C(B[m Cur Pos[35d(B[0;7m^X(B[m Exit     (B[0;7m^J(B[m Justify  (B[0;7m^W(B[m Where Is (B[0;7m^V(B[m Next Page(B[0;7m^U(B[m UnCut Tex(B[0;7m^T(B[m To Spell[3d[1;65H(B[0;7mModified[3d(B[mfirst commit7[4;32r8[4dM[1;35r[4;1HX[KX[Kcomman   [33d[K[4;4H  [K[4;33r[33;1H
+[1;35r[3;13H[33;22H(B[0;7m[ XOFF ignored, mumble mumble ][3;13H(B[m[4d[5d[6d[7d#[8;13H[9d#[10;13H[11d[12d#[13;13H[14d[15d[A[A[A#[11;13H[A[33d[K[9d#[8;13H[A#[8;13H[9d#[10;13H[11d[12d#[13;13H[14d[15d[16d#[17;13H[18d[19d#[18;13H[A[A#[15;13H[A[A[A#[11;13H[A[A#[8;13H[A#[8;13H[9d#[10;13H[11d[12d#[13;13H[14d[15d[16d#[17;13H[18d[19d#[18;13H[A[A#[15;13H[12d#[11;13H[7d#[3;13H[33d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?              [34;1H Y(B[m Yes[K[35d(B[0;7m N(B[m No           (B[0;7m^C(B[m Cancel[K[33;62H(B[0;7mFile Name to Write: .git/COMMIT_EDITMSG                     [34d^G(B[m Get Help[19G(B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append[34;55H(B[0;7mM-B(B[m Backup File[35d(B[0;7m^C(B[m Cancel[17G  (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend[33;40H[33;30H[1K (B[0;7m[ Cancelled ](B[m[K[34;13H(B[0;7m^O(B[m WriteOut (B[0;7m^R(B[m Read File(B[0;7m^Y(B[m Prev Page(B[0;7m^K(B[m Cut Text (B[0;7m^C(B[m Cur Pos[35;2H(B[0;7mX(B[m Exit     (B[0;7m^J(B[m Justify  (B[0;7m^W(B[m Where Is (B[0;7m^V(B[m Next Page(B[0;7m^U(B[m UnCut Tex(B[0;7m^T(B[m To Spell[3;13H[33d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?              [34;1H Y(B[m Yes[K[35d(B[0;7m N(B[m No           (B[0;7m^C(B[m Cancel[K[33;62H(B[0;7mFile Name to Write: .git/COMMIT_EDITMSG                     [34d^G(B[m Get Help[19G(B[0;7mM-D(B[m DOS Format    (B[0;7mM-A(B[m Append[34;55H(B[0;7mM-B(B[m Backup File[35d(B[0;7m^C(B[m Cancel[17G  (B[0;7mM-M(B[m Mac Format    (B[0;7mM-P(B[m Prepend[33;40H[33;21H[33;30H[1K (B[0;7m[ Cancelled ](B[m[K[34;13H(B[0;7m^O(B[m WriteOut (B[0;7m^R(B[m Read File(B[0;7m^Y(B[m Prev Page(B[0;7m^K(B[m Cut Text (B[0;7m^C(B[m Cur Pos[35;2H(B[0;7mX(B[m Exit     (B[0;7m^J(B[m Justify  (B[0;7m^W(B[m Where Is (B[0;7m^V(B[m Next Page(B[0;7m^U(B[m UnCut Tex(B[0;7m^T(B[m To Spell[3;13H[33d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?              [34;1H Y(B[m Yes[K[35d(B[0;7m N(B[m No           (B[0;7m^C(B[m Cancel[K[33;62H(B[0;7mFile Name to Write: .git/COMMIT_EDITMSG                     [34

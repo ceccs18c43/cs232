@@ -1,0 +1,70 @@
+CEC CS 18 43
+Nivea Gigen
+
+--------------------------------
+#1: Aim/task
+Familiarization of basic commands.
+---------------------------------
+Command/Shell script/Program name
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+script work.txt
+ls
+cat >nivea.txt
+nivea       
+paru 
+seba
+cat nivea.txt
+nivea 
+paru 
+seba
+sort nivea.txt
+cut -b 2.nivea.txt
+cat >ni.txt
+1
+2
+3
+4
+ paste nivea.txt ni.txt
+
+
+	 
+
+
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+work.txt
+nivea 
+paru 
+seba
+nivea
+i
+a
+e 
+nivea 	1
+paru 	2
+seba	3
+
+-------------------
+Remarks if any:
+
+
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
+
+
