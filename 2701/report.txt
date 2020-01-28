@@ -5,13 +5,14 @@ Nivea Gigen
 #1: Aim/task : Familiarization of basic commands.
 ---------------------------------
 Command/Shell script/Program name
-
+Linux Command
 ---------------------------------
 
 Input: (If relevant)
 ---------------
 script work.txt
 ls
+work.txt
 cat >nivea.txt
 nivea       
 paru 
@@ -21,32 +22,36 @@ nivea
 paru 
 seba
 sort nivea.txt
+nivea 
+paru 
+seba
 cut -b 2.nivea.txt
+i
+a
+e 
 cat >ni.txt
 1
 2
 3
 4
- paste nivea.txt ni.txt
-
-
+paste nivea.txt ni.txt
+nivea 	1
+paru 	2
+seba	3
+grep nivea nivea.txt
+nivea
 	 
 
 
 
 --------------------------------
-Output: or Input & Output (whichever is applicable)
-work.txt
-nivea 
-paru 
-seba
-nivea
-i
-a
-e 
-nivea 	1
-paru 	2
-seba	3
+Result
+Output is obtained successfully. 
+
+
+
+
+
 
 -------------------
 Remarks if any:
@@ -57,6 +62,8 @@ Remarks if any:
 
 -------------------------------------
 -------------------------------------
+#1:
+
 #2:
 
 #3:
