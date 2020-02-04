@@ -15,17 +15,25 @@ sftp> cd 0302[K[K[K[K[K[Kdir
 sftp> cd 0302
 sftp> put report.txt
 Uploading report.txt to /home/cs18c43/cs232/0302/report.txt
-report.txt                                      0%    0     0.0KB/s   --:-- ETAreport.txt                                    100%  618     0.6KB/s   00:00    
+
+report.txt                                      0%    0     0.0KB/s   --:-- ETA
+report.txt                                    100%  618     0.6KB/s   00:00    
 sftp> put report.txt.txt[K.txt[K.txt[K.txt[K.txt[K.txt[Kw.txto.txtr.txtk.txt
 Uploading work.txt to /home/cs18c43/cs232/0302/work.txt
-work.txt                                        0%    0     0.0KB/s   --:-- ETAwork.txt                                      100% 1971     1.9KB/s   00:00    
+
+work.txt                                        0%    0     0.0KB/s   --:-- ETA
+work.txt                                      100% 1971     1.9KB/s   00:00    
 sftp> put t[K?[K/ //test/work.txt
-stat /test/work.txt: No such file or directory
+stat /test/work.txt: No such file or directory
+
 sftp> put /test/work.txt[Pw
-stat /testwork.txt: No such file or directory
+stat /testwork.txt: No such file or directory
+
 sftp> exitput /testwork.txt[1@/w[Pt
 Uploading test/work.txt to /home/cs18c43/cs232/0302/work.txt
-test/work.txt                                   0%    0     0.0KB/s   --:-- ETAtest/work.txt                                 100% 1168     1.1KB/s   00:00    
+
+test/work.txt                                   0%    0     0.0KB/s   --:-- ETA
+test/work.txt                                 100% 1168     1.1KB/s   00:00    
 sftp> exit
 ]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ git inity[K
 Initialized empty Git repository in /home/s4c1/ceccs18c43/cs232/0302/.git/
@@ -71,22 +79,117 @@ PING 192.168.0.30 (192.168.0.30) 56(84) bytes of data.
 
 ]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ git init
 Reinitialized existing Git repository in /home/s4c1/ceccs18c43/cs232/0302/.git/
-]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ git pull http:??[K[K//github.com/c eccs18c43/cs232
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ git pull http:??[K[K//github.com/c 
+eccs18c43/cs232
 remote: Enumerating objects: 32, done.[K
-remote: Counting objects:   3% (1/32)[Kremote: Counting objects:   6% (2/32)[Kremote: Counting objects:   9% (3/32)[Kremote: Counting objects:  12% (4/32)[Kremote: Counting objects:  15% (5/32)[Kremote: Counting objects:  18% (6/32)[Kremote: Counting objects:  21% (7/32)[Kremote: Counting objects:  25% (8/32)[Kremote: Counting objects:  28% (9/32)[Kremote: Counting objects:  31% (10/32)[Kremote: Counting objects:  34% (11/32)[Kremote: Counting objects:  37% (12/32)[Kremote: Counting objects:  40% (13/32)[Kremote: Counting objects:  43% (14/32)[Kremote: Counting objects:  46% (15/32)[Kremote: Counting objects:  50% (16/32)[Kremote: Counting objects:  53% (17/32)[Kremote: Counting objects:  56% (18/32)[Kremote: Counting objects:  59% (19/32)[Kremote: Counting objects:  62% (20/32)[Kremote: Counting objects:  65% (21/32)[Kremote: Counting objects:  68% (22/32)[Kremote: Counting objects:  71% (23/32)[Kremote: Counting objects:  75% (24/32)[Kremote: Counting objects:  78% (25/32)[Kremote: Counting objects:  81% (26/32)[Kremote: Counting objects:  84% (27/32)[Kremote: Counting objects:  87% (28/32)[Kremote: Counting objects:  90% (29/32)[Kremote: Counting objects:  93% (30/32)[Kremote: Counting objects:  96% (31/32)[Kremote: Counting objects: 100% (32/32)[Kremote: Counting objects: 100% (32/32), done.[K
-remote: Compressing objects:   5% (1/20)[Kremote: Compressing objects:  10% (2/20)[Kremote: Compressing objects:  15% (3/20)[Kremote: Compressing objects:  20% (4/20)[Kremote: Compressing objects:  25% (5/20)[Kremote: Compressing objects:  30% (6/20)[Kremote: Compressing objects:  35% (7/20)[Kremote: Compressing objects:  40% (8/20)[Kremote: Compressing objects:  45% (9/20)[Kremote: Compressing objects:  50% (10/20)[Kremote: Compressing objects:  55% (11/20)[Kremote: Compressing objects:  60% (12/20)[Kremote: Compressing objects:  65% (13/20)[Kremote: Compressing objects:  70% (14/20)[Kremote: Compressing objects:  75% (15/20)[Kremote: Compressing objects:  80% (16/20)[Kremote: Compressing objects:  85% (17/20)[Kremote: Compressing objects:  90% (18/20)[Kremote: Compressing objects:  95% (19/20)[Kremote: Compressing objects: 100% (20/20)[Kremote: Compressing objects: 100% (20/20), done.[K
+remote: Counting objects:   3% (1/32)[K
+remote: Counting objects:   6% (2/32)[K
+remote: Counting objects:   9% (3/32)[K
+remote: Counting objects:  12% (4/32)[K
+remote: Counting objects:  15% (5/32)[K
+remote: Counting objects:  18% (6/32)[K
+remote: Counting objects:  21% (7/32)[K
+remote: Counting objects:  25% (8/32)[K
+remote: Counting objects:  28% (9/32)[K
+remote: Counting objects:  31% (10/32)[K
+remote: Counting objects:  34% (11/32)[K
+remote: Counting objects:  37% (12/32)[K
+remote: Counting objects:  40% (13/32)[K
+remote: Counting objects:  43% (14/32)[K
+remote: Counting objects:  46% (15/32)[K
+remote: Counting objects:  50% (16/32)[K
+remote: Counting objects:  53% (17/32)[K
+remote: Counting objects:  56% (18/32)[K
+remote: Counting objects:  59% (19/32)[K
+remote: Counting objects:  62% (20/32)[K
+remote: Counting objects:  65% (21/32)[K
+remote: Counting objects:  68% (22/32)[K
+remote: Counting objects:  71% (23/32)[K
+remote: Counting objects:  75% (24/32)[K
+remote: Counting objects:  78% (25/32)[K
+remote: Counting objects:  81% (26/32)[K
+remote: Counting objects:  84% (27/32)[K
+remote: Counting objects:  87% (28/32)[K
+remote: Counting objects:  90% (29/32)[K
+remote: Counting objects:  93% (30/32)[K
+remote: Counting objects:  96% (31/32)[K
+remote: Counting objects: 100% (32/32)[K
+remote: Counting objects: 100% (32/32), done.[K
+remote: Compressing objects:   5% (1/20)[K
+remote: Compressing objects:  10% (2/20)[K
+remote: Compressing objects:  15% (3/20)[K
+remote: Compressing objects:  20% (4/20)[K
+remote: Compressing objects:  25% (5/20)[K
+remote: Compressing objects:  30% (6/20)[K
+remote: Compressing objects:  35% (7/20)[K
+remote: Compressing objects:  40% (8/20)[K
+remote: Compressing objects:  45% (9/20)[K
+remote: Compressing objects:  50% (10/20)[K
+remote: Compressing objects:  55% (11/20)[K
+remote: Compressing objects:  60% (12/20)[K
+remote: Compressing objects:  65% (13/20)[K
+remote: Compressing objects:  70% (14/20)[K
+remote: Compressing objects:  75% (15/20)[K
+remote: Compressing objects:  80% (16/20)[K
+remote: Compressing objects:  85% (17/20)[K
+remote: Compressing objects:  90% (18/20)[K
+remote: Compressing objects:  95% (19/20)[K
+remote: Compressing objects: 100% (20/20)[K
+remote: Compressing objects: 100% (20/20), done.[K
 remote: Total 32 (delta 7), reused 12 (delta 1), pack-reused 0[K
-Unpacking objects:   3% (1/32)   Unpacking objects:   6% (2/32)   Unpacking objects:   9% (3/32)   Unpacking objects:  12% (4/32)   Unpacking objects:  15% (5/32)   Unpacking objects:  18% (6/32)   Unpacking objects:  21% (7/32)   Unpacking objects:  25% (8/32)   Unpacking objects:  28% (9/32)   Unpacking objects:  31% (10/32)   Unpacking objects:  34% (11/32)   Unpacking objects:  37% (12/32)   Unpacking objects:  40% (13/32)   Unpacking objects:  43% (14/32)   Unpacking objects:  46% (15/32)   Unpacking objects:  50% (16/32)   Unpacking objects:  53% (17/32)   Unpacking objects:  56% (18/32)   Unpacking objects:  59% (19/32)   Unpacking objects:  62% (20/32)   Unpacking objects:  65% (21/32)   Unpacking objects:  68% (22/32)   Unpacking objects:  71% (23/32)   Unpacking objects:  75% (24/32)   Unpacking objects:  78% (25/32)   Unpacking objects:  81% (26/32)   Unpacking objects:  84% (27/32)   Unpacking objects:  87% (28/32)   Unpacking objects:  90% (29/32)   Unpacking objects:  93% (30/32)   Unpacking objects:  96% (31/32)   Unpacking objects: 100% (32/32)   Unpacking objects: 100% (32/32), done.
+Unpacking objects:   3% (1/32)   
+Unpacking objects:   6% (2/32)   
+Unpacking objects:   9% (3/32)   
+Unpacking objects:  12% (4/32)   
+Unpacking objects:  15% (5/32)   
+Unpacking objects:  18% (6/32)   
+Unpacking objects:  21% (7/32)   
+Unpacking objects:  25% (8/32)   
+Unpacking objects:  28% (9/32)   
+Unpacking objects:  31% (10/32)   
+Unpacking objects:  34% (11/32)   
+Unpacking objects:  37% (12/32)   
+Unpacking objects:  40% (13/32)   
+Unpacking objects:  43% (14/32)   
+Unpacking objects:  46% (15/32)   
+Unpacking objects:  50% (16/32)   
+Unpacking objects:  53% (17/32)   
+Unpacking objects:  56% (18/32)   
+Unpacking objects:  59% (19/32)   
+Unpacking objects:  62% (20/32)   
+Unpacking objects:  65% (21/32)   
+Unpacking objects:  68% (22/32)   
+Unpacking objects:  71% (23/32)   
+Unpacking objects:  75% (24/32)   
+Unpacking objects:  78% (25/32)   
+Unpacking objects:  81% (26/32)   
+Unpacking objects:  84% (27/32)   
+Unpacking objects:  87% (28/32)   
+Unpacking objects:  90% (29/32)   
+Unpacking objects:  93% (30/32)   
+Unpacking objects:  96% (31/32)   
+Unpacking objects: 100% (32/32)   
+Unpacking objects: 100% (32/32), done.
 From http://github.com/ceccs18c43/cs232
  * branch            HEAD       -> FETCH_HEAD
-]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ git pull http://github.com/ceeccs18c43/cs232[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ [C[C[C[Cinit[K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpull http://github.com/ceeccs18c43/cs232[A]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ [K
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit pull http://github.com/ceeccs18c43/cs232[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ git pull http://github.com/ce
+eccs18c43/cs232[A
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ [C[C[C[Cinit[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpull http://github.com/ce
+eccs18c43/cs232[A
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ [K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit pull http://github.com/ce
+eccs18c43/cs232
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
 From http://github.com/ceccs18c43/cs232
  * branch            HEAD       -> FETCH_HEAD
 Already up-to-date.
-]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ git add [K[K[K[K[K[K[K[Kgit add[K[K[Kremote addorigin https:/ /github.com/ceccs18cxx/cs232
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ git add [K[K[K[K[K[K[K[Kgit add[K[K[Kremote addorigin https:/ 
+/github.com/ceccs18cxx/cs232
 error: Unknown subcommand: addorigin
 usage: git remote [-v | --verbose]
    or: git remote add [-t <branch>] [-m <master>] [-f] [--mirror=<fetch|push>] <name> <url>
@@ -103,7 +206,8 @@ usage: git remote [-v | --verbose]
 
     -v, --verbose         be verbose; must be placed before a subcommand
 
-]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ git push -u origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit remote add origin https: //github.com/ceccs18c43/cs232
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ git push -u origin master[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit remote add origin https: 
+//github.com/ceccs18c43/cs232
 ]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ git push -u origin master
 Username for 'https://github.com': ceccs18c43
 Password for 'https://ceccs18c43@github.com': 
