@@ -1,17 +1,0 @@
-Script started on Wednesday 01 January 2003 12:59:50 AM IST
-]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ scp n[Kn.txt cs18c43@192.168.0. 30:0302
-.
-              |
-.  .    . .-. | .-..-. .--.--. .-.
- \  \  / (.-' |(  (   )|  |  |(.-'
-  `' `'   `--'` `-'`-' '  '  ` `--'
-cs18c43@192.168.0.30's password: 
-n.txt                                           0%    0     0.0KB/s   --:-- ETAn.txt                                         100%   17     0.0KB/s   00:00    
-]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ mkdir test
-]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ cd test
-]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302/tests4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302/test$ cat >s.[K[Kaa.tx[K[K[K[K[Ks.[K[Ksst[K.txt
-apple
-mango
-g mango     orange
-]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302/tests4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302/test$ exit
-Script done on Wednesday 01 January 2003 01:06:00 AM IST
