@@ -1,0 +1,37 @@
+Script started on Wednesday 01 January 2003 01:13:00 AM IST
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ ssh exitcat >ss.txt[4Pd test[3@mkdir[C[C[C[C[Cscp n.txt cs18c43@192.168.0.3
+30:0302[A
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ [C[C[13Pript work.txt
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Pcd 0302script work.txt[7Pcd cs232 232eccs18c43exit[Kcat >n.txtssh cs18c43@192.168.0.30exit[Kssh cs18c43@192.168.0.30
+.
+              |
+.  .    . .-. | .-..-. .--.--. .-.
+ \  \  / (.-' |(  (   )|  |  |(.-'
+  `' `'   `--'` `-'`-' '  '  ` `--'
+cs18c43@192.168.0.30's password: 
+Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
+
+ * Website:  http://elementary.io/
+
+402 packages can be updated.
+0 updates are security updates.
+
+Last login: Mon Feb  3 09:40:02 2020 from 192.168.0.141
+
+$ ls
+0302  cs  cs232  examples.desktop
+$ cd /
+$ ls
+bin    core  home	 lib32	     media  proc  sbin	sys  var
+boot   dev   initrd.img  lib64	     mnt    root  snap	tmp  vmlinuz
+cdrom  etc   lib	 lost+found  opt    run   srv	usr
+$ exit
+Connection to 192.168.0.30 closed.
+
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ cssh cs18c43@192.168.0.30exit[Kcat >ss.txt[1P.txt[1P.txta.txtb.txtc.txt
+sona
+sebs
+nivea
+]0;s4c1@lab2-AcerPower-Series: ~/ceccs18c43/cs232/0302s4c1@lab2-AcerPower-Series:~/ceccs18c43/cs232/0302$ exit
+Script done on Wednesday 01 January 2003 01:21:23 AM IST
