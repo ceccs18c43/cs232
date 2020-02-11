@@ -1,0 +1,104 @@
+CEC CS 18 C43
+NIVEA GIGEN
+
+--------------------------------
+#1: Networking tasks (t3)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+
+ifconfig -a
+route -n
+route add default gw 192.168.0.2
+ping 192.168.0.1
+cat /etc/resolv.conf
+echo "nameserver 1.1.1.1" >> resolv.conf
+
+
+--------------------------------
+Output:
+
+# ifconfig -a displays all available network interfaces
+
+# route -n displays kernal routing table
+
+# route add, is used add a new route to the table,
+# route add default gw 192.168.0.20, a default gateway in this case
+
+# echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+# to add 1.1.1.1 (1.1.1.1 is the DNS of Cloudflare) to system domain resolver configuration
+
+-------------------
+Remarks if any:
+
+student user wasn't in the sudoers list so I could not manipulate the routing table or access resolv.conf
+
+
+
+-------------------------------------
+-------------------------------------
+
+
+#2: Ftp usage (t5)
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+
+sftp cs18c43@192.168.0.30
+put report.txt
+lcd ..
+lpwd
+get work.txt
+rm work.txt
+quit
+
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+# sftp cs18c43@192.168.0.30, connect to host 192.168.0.30 via sftp
+
+# put report.txt, upload report.txt
+
+# lcd .., change local directory
+
+# lpwd, show local present working directory
+
+# get work.txt, copy work.txt from host to local system
+
+# rm work.txt, remove work.txt from host
+
+# quit, quit current ftp session
+
+
+-------------------
+Remarks if any:
+
+
+-------------------------------------
+-------------------------------------
+#3: Scripting task (t2)
+
+---------------------------------
+Command/Shell script/Program name
+---------------------------------
+	/SX/script.sh
+Inputs
+---------------------------------
+   #result downloaded from KTU site
+    /SX/result_CHN.pdf
+
+   # student details file containing roll number
+   /SX/students.txt
+----------------------------------------
+Output
+-------------------------------------------
+ #file with cgpa/number of students failed
+   /SX/cgpa.txt
+------------------------------------------------
+Remarks
+ 'X' in SX is replaced by 1or2 according to semester
+	
+	
+
