@@ -1,0 +1,65 @@
+ CEC CS 18 C 43 
+ 20-03-2020
+ NIVEA GIGEN
+ ip address 192.168.43.157
+ mac address 1C:75:08:cd:85:fd
+
+
+--------------------------------
+#1: Package management (t8)(1)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+	
+	# Update local package
+	sudo apt-get update
+	
+	# To update packages that doesn't require package removal
+	sudo apt-get upgrade
+	
+	# To upgrade all packages
+	sudo apt full-upgrade
+
+    # To install nmap
+    sudo apt-get install nmap
+
+    # To remove nmap
+    sudo apt remove nmap
+ 
+    # To install tasksel
+    sudo apt-get install tasksel
+
+    # To remove tasksel
+    sudo apt remove tasksel
+	
+	# To install apache2
+	sudo apt-get install apache2
+	
+	# To access the same prompts on installation
+	sudo dpkg-reconfigure apache2
+
+    # To get information about packages installed with apache2
+    apt-get install -s apache2
+
+    # To remove all dependencies no longer required
+    sudo apt-get autoremove
+
+    # To list all installed packages
+    sudo apt list > package.txt
+
+--------------------------------
+Output: 
+	
+	# List of installed packages
+    package.txt	
+
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+	
+	
