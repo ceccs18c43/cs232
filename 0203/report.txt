@@ -1,0 +1,46 @@
+CEC CS 18 C 43
+NIVEA GIGEN
+ip :196.168.0.201
+Mac:00:19:db:31:b9:d0
+---------------------------
+#1: Aim/task: TASK 7 Setting up http and ftp server
+---------------------------------
+Command/Shell script/Program name: 
+
+---------------------------------
+
+Input: (If relevant)
+---------------
+>> sudo apt-get install vsftpd
+      to install ftp server
+
+>> sudo vim /stc/vsftpd.conf
+      to edit server configuration
+
+>> ftp localhost 
+      to connect to ftp on local server
+
+>> sudo apt-get install apache2
+      to install apache
+
+>> sudo vim /var/www/html/index.html
+       to edit html
+--------------------------------
+Output: or Input & Output (whichever is applicable)
+
+html page available at 192.168.0.201(incomplete)
+-------------------
+Remarks if any:
+
+
+
+-------------------------------------
+-------------------------------------
+#2:
+
+#3:
+
+#4:
+
+#5:
+
