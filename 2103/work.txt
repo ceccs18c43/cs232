@@ -1,0 +1,38 @@
+Script started on 2020-03-21 22:13:02+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ gedit helloworld.pl
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ gedit evenor[K[K [Kor[K[Korodd.pl
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ gedit evenorodd.pl
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ perl progra[K[K[K[K[K[Khelloworld.pl
+Hello World
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ perl evenorodd.pl
+45
+
+Odd Number]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ perl evenorodd.plhelloworld.plgedit evenorodd.pl
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ gedit evenorodd.pl[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[Chelloworld.pl[1Pevenorodd.pl
+43
+
+Odd Number
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ perl evenorodd.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ gedit evenorodd.pl[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Enter the number:32
+
+Even Number
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ 
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ perl evenorodd.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ gedit evenorodd.pl[1Pperl[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Enter the number:32
+
+Even Number
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ perl evenorodd.pl[1@gedit[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgedit sort.pl
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ gedit sort.plperl evenorodd.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pl[1P.pls.plo.plr.plt.pl[C[C[C
+Original Array: 22 56 74 90 3 28 94 45
+Array after Sorting: 3 22 28 45 56 74 90 94]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ perl sort.pl[1@gedit[C[C[C[C[C[C[C[C
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ gedit sort.pl[1Pperl[C[C[C[C[C[C[C[C
+Original Array: 22 56 74 90 3 28 94 45
+Array after Sorting: 3 22 28 45 56 74 90 94
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/2103[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/2103[00m$ exit
+exit
+
+Script done on 2020-03-21 23:11:25+05:30 [COMMAND_EXIT_CODE="0"]
