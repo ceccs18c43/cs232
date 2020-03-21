@@ -3,7 +3,7 @@ NIVEA GIGEN
 ip :196.168.0.201
 Mac:00:19:db:31:b9:d0
 --------------------------------
-#1: Create a webpage in ftp server (t3)
+#1: Create a webpage in ftp server (t9)
 ---------------------------------
 
 Command/Shell script/Program name
