@@ -14,7 +14,7 @@ Input:
 ---------------------------------
 Output
 FUlly functional webpage that directs to appropirate work files and reports with hypertexts.
-http://192.168.0.30/cs18c/cs18c43
+http://14.139.189.217/cs18c/cs18c43
 
 -------------------
 Remarks if any:
