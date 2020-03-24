@@ -1,0 +1,1240 @@
+Script started on 2020-03-23 20:18:25+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ nano lamp.sh
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.3                        lamp.sh                                   [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[2d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[2d[36m#!/bin/bash
+[4d# update list
+[5d[39m(B[msudo apt update
+[7d[36m# install my-sql
+[8d[39m(B[msudo apt-get (B[0;1m[34minstall[35m -y[39m(B[m mysql-server mysql-client libmysqlclient-dev
+[10d[36m# install apache server
+[11d[39m(B[msudo apt-get (B[0;1m[34minstall[35m -y[39m(B[m apache2 apache2-doc apache2-npm-prefork apache2-utils l(B[0;7m>[13;1H(B[0m[36m# install PHP
+[14d[39m(B[msudo apt-get (B[0;1m[34minstall[35m -y[39m(B[m libapache2-mod-php7.0 php7.0 php7.0-common php7.0-curl (B[0;7m>[16;1H(B[0m[36m# restart apache2
+[17d[39m(B[msudo systemctl restart apache2
+[22d[K[17;31H[?12l[?25h[?25l
+[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K
+[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l
+[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File
+[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files
+[22d(B[0;7mFile Name to Write: lamp.sh
+(B[m[22;28H[?12l[?25h[?25l
+[K[1;79H[22;34H(B[0;7m[ Writing... ](B[m[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 16 lines ](B[m
+[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ chomd[K[K[K[K[Ksudo chmod 777 lamp.sh
+[sudo] password for ng: 
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ ./lamp.sh
+[33m
+0% [Working][0m[33m
+0% [Waiting for headers] [Waiting for headers] [Connecting to linux.teamviewer.[0m
+                                                                               
+Hit:1 http://security.ubuntu.com/ubuntu eoan-security InRelease
+[33m
+                                                                               
+0% [Waiting for headers] [Connecting to linux.teamviewer.com][0m
+                                                             
+Hit:2 http://in.archive.ubuntu.com/ubuntu eoan InRelease
+[33m
+0% [Waiting for headers] [Connecting to linux.teamviewer.com][0m[33m
+0% [Waiting for headers] [Connecting to linux.teamviewer.com][0m
+                                                             
+Hit:3 http://in.archive.ubuntu.com/ubuntu eoan-updates InRelease
+[33m
+                                                             
+0% [Connecting to linux.teamviewer.com][0m[33m
+0% [Waiting for headers] [Connecting to linux.teamviewer.com][0m
+                                                             
+Hit:4 http://in.archive.ubuntu.com/ubuntu eoan-backports InRelease
+[33m
+                                                             
+0% [Connecting to linux.teamviewer.com][0m[33m
+0% [Connecting to linux.teamviewer.com][0m[33m
+0% [Connecting to linux.teamviewer.com][0m[33m
+0% [Connecting to linux.teamviewer.com][0m[33m
+0% [Connecting to linux.teamviewer.com][0m[33m
+0% [Connecting to linux.teamviewer.com][0m[33m
+0% [Connecting to linux.teamviewer.com][0m[33m
+0% [Connecting to linux.teamviewer.com][0m[33m
+0% [Connecting to linux.teamviewer.com][0m[33m
+0% [Connecting to linux.teamviewer.com][0m
+                                       
+Hit:5 http://linux.teamviewer.com/deb stable InRelease
+[33m
+                                       
+0% [Working][0m[33m
+20% [Working][0m
+             
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 42%
+
+Reading package lists... 42%
+
+Reading package lists... 73%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+All packages are up to date.
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+mysql-server is already the newest version (8.0.19-0ubuntu0.19.10.3).
+Suggested packages:
+  libssl-doc
+The following NEW packages will be installed:
+  libmysqlclient-dev libssl-dev mysql-client
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 3,108 kB of archives.
+After this operation, 17.8 MB of additional disk space will be used.
+
+0% [Working]
+            
+Get:1 http://in.archive.ubuntu.com/ubuntu eoan/main amd64 libssl-dev amd64 1.1.1c-1ubuntu4 [1,578 kB]
+
+0% [1 libssl-dev 2,427 B/1,578 kB 0%]
+1% [1 libssl-dev 34.8 kB/1,578 kB 2%]
+2% [1 libssl-dev 69.8 kB/1,578 kB 4%]
+                                     
+3% [1 libssl-dev 114 kB/1,578 kB 7%]
+3% [1 libssl-dev 129 kB/1,578 kB 8%]
+4% [1 libssl-dev 156 kB/1,578 kB 10%]
+5% [1 libssl-dev 195 kB/1,578 kB 12%]
+5% [1 libssl-dev 213 kB/1,578 kB 13%]
+6% [1 libssl-dev 217 kB/1,578 kB 14%]
+6% [1 libssl-dev 229 kB/1,578 kB 15%]
+6% [1 libssl-dev 238 kB/1,578 kB 15%]
+7% [1 libssl-dev 253 kB/1,578 kB 16%]
+7% [1 libssl-dev 257 kB/1,578 kB 16%]                        40.0 kB/s 1min 11s
+7% [1 libssl-dev 271 kB/1,578 kB 17%]                        40.0 kB/s 1min 10s
+7% [1 libssl-dev 286 kB/1,578 kB 18%]                        40.0 kB/s 1min 10s
+8% [1 libssl-dev 299 kB/1,578 kB 19%]                        40.0 kB/s 1min 10s
+8% [1 libssl-dev 314 kB/1,578 kB 20%]                         40.0 kB/s 1min 9s
+8% [1 libssl-dev 329 kB/1,578 kB 21%]                         40.0 kB/s 1min 9s
+9% [1 libssl-dev 333 kB/1,578 kB 21%]                         40.0 kB/s 1min 9s
+9% [1 libssl-dev 343 kB/1,578 kB 22%]                         40.0 kB/s 1min 9s
+9% [1 libssl-dev 345 kB/1,578 kB 22%]                         40.0 kB/s 1min 9s
+9% [1 libssl-dev 353 kB/1,578 kB 22%]                         40.0 kB/s 1min 8s
+9% [1 libssl-dev 357 kB/1,578 kB 23%]                         40.0 kB/s 1min 8s
+10% [1 libssl-dev 369 kB/1,578 kB 23%]                        40.0 kB/s 1min 8s
+10% [1 libssl-dev 369 kB/1,578 kB 23%]                       18.6 kB/s 2min 27s
+10% [1 libssl-dev 380 kB/1,578 kB 24%]                       18.6 kB/s 2min 26s
+10% [1 libssl-dev 391 kB/1,578 kB 25%]                       18.6 kB/s 2min 25s
+10% [1 libssl-dev 392 kB/1,578 kB 25%]                       18.6 kB/s 2min 25s
+10% [1 libssl-dev 401 kB/1,578 kB 25%]                       18.6 kB/s 2min 25s
+11% [1 libssl-dev 411 kB/1,578 kB 26%]                       18.6 kB/s 2min 24s
+11% [1 libssl-dev 424 kB/1,578 kB 27%]                       18.6 kB/s 2min 24s
+11% [1 libssl-dev 431 kB/1,578 kB 27%]                       18.6 kB/s 2min 23s
+11% [1 libssl-dev 443 kB/1,578 kB 28%]                       18.6 kB/s 2min 23s
+11% [1 libssl-dev 446 kB/1,578 kB 28%]                       18.6 kB/s 2min 22s
+12% [1 libssl-dev 461 kB/1,578 kB 29%]                       18.6 kB/s 2min 22s
+12% [1 libssl-dev 462 kB/1,578 kB 29%]                       18.6 kB/s 2min 22s
+12% [1 libssl-dev 473 kB/1,578 kB 30%]                       17.3 kB/s 2min 32s
+12% [1 libssl-dev 481 kB/1,578 kB 30%]                       17.3 kB/s 2min 32s
+13% [1 libssl-dev 489 kB/1,578 kB 31%]                       17.3 kB/s 2min 31s
+13% [1 libssl-dev 498 kB/1,578 kB 32%]                       17.3 kB/s 2min 31s
+13% [1 libssl-dev 509 kB/1,578 kB 32%]                       17.3 kB/s 2min 30s
+13% [1 libssl-dev 516 kB/1,578 kB 33%]                       17.3 kB/s 2min 30s
+13% [1 libssl-dev 519 kB/1,578 kB 33%]                       17.3 kB/s 2min 29s
+14% [1 libssl-dev 532 kB/1,578 kB 34%]                       17.3 kB/s 2min 29s
+14% [1 libssl-dev 544 kB/1,578 kB 34%]                       17.3 kB/s 2min 28s
+14% [1 libssl-dev 552 kB/1,578 kB 35%]                       17.3 kB/s 2min 27s
+14% [1 libssl-dev 563 kB/1,578 kB 36%]                       17.3 kB/s 2min 27s
+15% [1 libssl-dev 575 kB/1,578 kB 36%]                       17.3 kB/s 2min 26s
+15% [1 libssl-dev 582 kB/1,578 kB 37%]                       18.2 kB/s 2min 19s
+15% [1 libssl-dev 589 kB/1,578 kB 37%]                       18.2 kB/s 2min 18s
+15% [1 libssl-dev 596 kB/1,578 kB 38%]                       18.2 kB/s 2min 18s
+16% [1 libssl-dev 606 kB/1,578 kB 38%]                       18.2 kB/s 2min 17s
+16% [1 libssl-dev 618 kB/1,578 kB 39%]                       18.2 kB/s 2min 17s
+16% [1 libssl-dev 637 kB/1,578 kB 40%]                       18.2 kB/s 2min 15s
+17% [1 libssl-dev 659 kB/1,578 kB 42%]                       18.2 kB/s 2min 14s
+17% [1 libssl-dev 660 kB/1,578 kB 42%]                       18.2 kB/s 2min 14s
+18% [1 libssl-dev 682 kB/1,578 kB 43%]                       18.2 kB/s 2min 13s
+18% [1 libssl-dev 682 kB/1,578 kB 43%]                       18.2 kB/s 2min 13s
+18% [1 libssl-dev 698 kB/1,578 kB 44%]                       18.2 kB/s 2min 12s
+18% [1 libssl-dev 710 kB/1,578 kB 45%]                       18.2 kB/s 2min 11s
+19% [1 libssl-dev 720 kB/1,578 kB 46%]                       22.9 kB/s 1min 44s
+19% [1 libssl-dev 729 kB/1,578 kB 46%]                       22.9 kB/s 1min 43s
+19% [1 libssl-dev 742 kB/1,578 kB 47%]                       22.9 kB/s 1min 43s
+19% [1 libssl-dev 753 kB/1,578 kB 48%]                       22.9 kB/s 1min 42s
+20% [1 libssl-dev 760 kB/1,578 kB 48%]                       22.9 kB/s 1min 42s
+20% [1 libssl-dev 768 kB/1,578 kB 49%]                       22.9 kB/s 1min 42s
+20% [1 libssl-dev 776 kB/1,578 kB 49%]                       22.9 kB/s 1min 41s
+20% [1 libssl-dev 791 kB/1,578 kB 50%]                       22.9 kB/s 1min 41s
+21% [1 libssl-dev 800 kB/1,578 kB 51%]                       22.9 kB/s 1min 40s
+21% [1 libssl-dev 813 kB/1,578 kB 51%]                       22.9 kB/s 1min 40s
+21% [1 libssl-dev 825 kB/1,578 kB 52%]                       22.9 kB/s 1min 39s
+21% [1 libssl-dev 831 kB/1,578 kB 53%]                       22.9 kB/s 1min 39s
+22% [1 libssl-dev 845 kB/1,578 kB 54%]                       20.9 kB/s 1min 48s
+22% [1 libssl-dev 850 kB/1,578 kB 54%]                       20.9 kB/s 1min 48s
+22% [1 libssl-dev 857 kB/1,578 kB 54%]                       20.9 kB/s 1min 47s
+22% [1 libssl-dev 864 kB/1,578 kB 55%]                       20.9 kB/s 1min 47s
+23% [1 libssl-dev 875 kB/1,578 kB 55%]                       20.9 kB/s 1min 47s
+23% [1 libssl-dev 885 kB/1,578 kB 56%]                       20.9 kB/s 1min 46s
+23% [1 libssl-dev 899 kB/1,578 kB 57%]                       20.9 kB/s 1min 45s
+23% [1 libssl-dev 900 kB/1,578 kB 57%]                       20.9 kB/s 1min 45s
+24% [1 libssl-dev 919 kB/1,578 kB 58%]                       20.9 kB/s 1min 44s
+24% [1 libssl-dev 922 kB/1,578 kB 58%]                       20.9 kB/s 1min 44s
+24% [1 libssl-dev 937 kB/1,578 kB 59%]                       20.9 kB/s 1min 44s
+24% [1 libssl-dev 946 kB/1,578 kB 60%]                       20.9 kB/s 1min 43s
+25% [1 libssl-dev 958 kB/1,578 kB 61%]                       18.8 kB/s 1min 54s
+25% [1 libssl-dev 968 kB/1,578 kB 61%]                       18.8 kB/s 1min 53s
+25% [1 libssl-dev 982 kB/1,578 kB 62%]                       18.8 kB/s 1min 52s
+25% [1 libssl-dev 989 kB/1,578 kB 63%]                       18.8 kB/s 1min 52s
+26% [1 libssl-dev 1,008 kB/1,578 kB 64%]                     18.8 kB/s 1min 51s
+26% [1 libssl-dev 1,024 kB/1,578 kB 65%]                     18.8 kB/s 1min 50s
+27% [1 libssl-dev 1,031 kB/1,578 kB 65%]                     18.8 kB/s 1min 50s
+27% [1 libssl-dev 1,043 kB/1,578 kB 66%]                     18.8 kB/s 1min 49s
+27% [1 libssl-dev 1,061 kB/1,578 kB 67%]                     18.8 kB/s 1min 48s
+28% [1 libssl-dev 1,077 kB/1,578 kB 68%]                     18.8 kB/s 1min 47s
+28% [1 libssl-dev 1,079 kB/1,578 kB 68%]                     18.8 kB/s 1min 47s
+28% [1 libssl-dev 1,092 kB/1,578 kB 69%]                     18.8 kB/s 1min 47s
+28% [1 libssl-dev 1,098 kB/1,578 kB 70%]                     23.3 kB/s 1min 26s
+28% [1 libssl-dev 1,106 kB/1,578 kB 70%]                     23.3 kB/s 1min 25s
+29% [1 libssl-dev 1,117 kB/1,578 kB 71%]                     23.3 kB/s 1min 25s
+29% [1 libssl-dev 1,133 kB/1,578 kB 72%]                     23.3 kB/s 1min 24s
+29% [1 libssl-dev 1,140 kB/1,578 kB 72%]                     23.3 kB/s 1min 24s
+30% [1 libssl-dev 1,156 kB/1,578 kB 73%]                     23.3 kB/s 1min 23s
+30% [1 libssl-dev 1,168 kB/1,578 kB 74%]                     23.3 kB/s 1min 23s
+30% [1 libssl-dev 1,177 kB/1,578 kB 75%]                     23.3 kB/s 1min 22s
+31% [1 libssl-dev 1,187 kB/1,578 kB 75%]                     23.3 kB/s 1min 22s
+31% [1 libssl-dev 1,194 kB/1,578 kB 76%]                     23.3 kB/s 1min 22s
+31% [1 libssl-dev 1,198 kB/1,578 kB 76%]                     23.3 kB/s 1min 21s
+31% [1 libssl-dev 1,198 kB/1,578 kB 76%]                     23.3 kB/s 1min 21s
+31% [1 libssl-dev 1,212 kB/1,578 kB 77%]                     18.8 kB/s 1min 40s
+31% [1 libssl-dev 1,222 kB/1,578 kB 77%]                     18.8 kB/s 1min 40s
+32% [1 libssl-dev 1,226 kB/1,578 kB 78%]                     18.8 kB/s 1min 39s
+32% [1 libssl-dev 1,241 kB/1,578 kB 79%]                     18.8 kB/s 1min 39s
+32% [1 libssl-dev 1,257 kB/1,578 kB 80%]                     18.8 kB/s 1min 38s
+33% [1 libssl-dev 1,268 kB/1,578 kB 80%]                     18.8 kB/s 1min 37s
+33% [1 libssl-dev 1,279 kB/1,578 kB 81%]                     18.8 kB/s 1min 37s
+33% [1 libssl-dev 1,286 kB/1,578 kB 81%]                     18.8 kB/s 1min 36s
+33% [1 libssl-dev 1,287 kB/1,578 kB 82%]                     18.8 kB/s 1min 36s
+33% [1 libssl-dev 1,290 kB/1,578 kB 82%]                     18.8 kB/s 1min 36s
+33% [1 libssl-dev 1,290 kB/1,578 kB 82%]                     18.8 kB/s 1min 36s
+33% [1 libssl-dev 1,295 kB/1,578 kB 82%]                     18.8 kB/s 1min 36s
+33% [1 libssl-dev 1,299 kB/1,578 kB 82%]                      14.6 kB/s 2min 4s
+34% [1 libssl-dev 1,302 kB/1,578 kB 82%]                      14.6 kB/s 2min 3s
+34% [1 libssl-dev 1,307 kB/1,578 kB 83%]                      14.6 kB/s 2min 3s
+34% [1 libssl-dev 1,313 kB/1,578 kB 83%]                      14.6 kB/s 2min 3s
+34% [1 libssl-dev 1,318 kB/1,578 kB 84%]                      14.6 kB/s 2min 2s
+34% [1 libssl-dev 1,325 kB/1,578 kB 84%]                      14.6 kB/s 2min 2s
+34% [1 libssl-dev 1,328 kB/1,578 kB 84%]                      14.6 kB/s 2min 2s
+34% [1 libssl-dev 1,334 kB/1,578 kB 85%]                      14.6 kB/s 2min 1s
+35% [1 libssl-dev 1,341 kB/1,578 kB 85%]                      14.6 kB/s 2min 1s
+35% [1 libssl-dev 1,344 kB/1,578 kB 85%]                      14.6 kB/s 2min 0s
+35% [1 libssl-dev 1,344 kB/1,578 kB 85%]                      14.6 kB/s 2min 0s
+35% [1 libssl-dev 1,354 kB/1,578 kB 86%]                      14.6 kB/s 2min 0s
+35% [1 libssl-dev 1,367 kB/1,578 kB 87%]                     11.2 kB/s 2min 35s
+35% [1 libssl-dev 1,376 kB/1,578 kB 87%]                     11.2 kB/s 2min 34s
+36% [1 libssl-dev 1,385 kB/1,578 kB 88%]                     11.2 kB/s 2min 33s
+36% [1 libssl-dev 1,387 kB/1,578 kB 88%]                     11.2 kB/s 2min 33s
+36% [1 libssl-dev 1,395 kB/1,578 kB 88%]                     11.2 kB/s 2min 32s
+36% [1 libssl-dev 1,400 kB/1,578 kB 89%]                     11.2 kB/s 2min 32s
+36% [1 libssl-dev 1,407 kB/1,578 kB 89%]                     11.2 kB/s 2min 31s
+36% [1 libssl-dev 1,414 kB/1,578 kB 90%]                     11.2 kB/s 2min 31s
+37% [1 libssl-dev 1,427 kB/1,578 kB 90%]                     11.2 kB/s 2min 29s
+37% [1 libssl-dev 1,438 kB/1,578 kB 91%]                     11.2 kB/s 2min 28s
+37% [1 libssl-dev 1,443 kB/1,578 kB 91%]                     11.2 kB/s 2min 28s
+38% [1 libssl-dev 1,460 kB/1,578 kB 92%]                     11.2 kB/s 2min 26s
+38% [1 libssl-dev 1,477 kB/1,578 kB 94%]                     18.4 kB/s 1min 28s
+38% [1 libssl-dev 1,488 kB/1,578 kB 94%]                     18.4 kB/s 1min 28s
+39% [1 libssl-dev 1,497 kB/1,578 kB 95%]                     18.4 kB/s 1min 27s
+39% [1 libssl-dev 1,508 kB/1,578 kB 96%]                     18.4 kB/s 1min 26s
+39% [1 libssl-dev 1,519 kB/1,578 kB 96%]                     18.4 kB/s 1min 26s
+39% [1 libssl-dev 1,527 kB/1,578 kB 97%]                     18.4 kB/s 1min 25s
+40% [1 libssl-dev 1,535 kB/1,578 kB 97%]                     18.4 kB/s 1min 25s
+40% [1 libssl-dev 1,543 kB/1,578 kB 98%]                     18.4 kB/s 1min 25s
+40% [1 libssl-dev 1,554 kB/1,578 kB 98%]                     18.4 kB/s 1min 24s
+40% [1 libssl-dev 1,566 kB/1,578 kB 99%]                     18.4 kB/s 1min 23s
+40% [1 libssl-dev 1,573 kB/1,578 kB 100%]                    18.4 kB/s 1min 23s
+47% [Working]                                                18.4 kB/s 1min 23s
+                                                                               
+Get:2 http://in.archive.ubuntu.com/ubuntu eoan-updates/main amd64 libmysqlclient-dev amd64 8.0.19-0ubuntu0.19.10.3 [1,520 kB]
+
+47% [2 libmysqlclient-dev 1,079 B/1,520 kB 0%]               18.4 kB/s 1min 23s
+48% [2 libmysqlclient-dev 9,167 B/1,520 kB 1%]               18.0 kB/s 1min 24s
+48% [2 libmysqlclient-dev 22.6 kB/1,520 kB 1%]               18.0 kB/s 1min 23s
+48% [2 libmysqlclient-dev 34.8 kB/1,520 kB 2%]               18.0 kB/s 1min 23s
+48% [2 libmysqlclient-dev 44.2 kB/1,520 kB 3%]               18.0 kB/s 1min 22s
+49% [2 libmysqlclient-dev 57.7 kB/1,520 kB 4%]               18.0 kB/s 1min 21s
+49% [2 libmysqlclient-dev 68.5 kB/1,520 kB 5%]               18.0 kB/s 1min 21s
+49% [2 libmysqlclient-dev 80.6 kB/1,520 kB 5%]               18.0 kB/s 1min 20s
+50% [2 libmysqlclient-dev 99.5 kB/1,520 kB 7%]               18.0 kB/s 1min 19s
+50% [2 libmysqlclient-dev 118 kB/1,520 kB 8%]                18.0 kB/s 1min 18s
+51% [2 libmysqlclient-dev 135 kB/1,520 kB 9%]                18.0 kB/s 1min 17s
+51% [2 libmysqlclient-dev 149 kB/1,520 kB 10%]               18.0 kB/s 1min 16s
+51% [2 libmysqlclient-dev 159 kB/1,520 kB 10%]               18.0 kB/s 1min 16s
+52% [2 libmysqlclient-dev 174 kB/1,520 kB 11%]                    27.4 kB/s 49s
+52% [2 libmysqlclient-dev 186 kB/1,520 kB 12%]                    27.4 kB/s 49s
+52% [2 libmysqlclient-dev 198 kB/1,520 kB 13%]                    27.4 kB/s 48s
+53% [2 libmysqlclient-dev 205 kB/1,520 kB 13%]                    27.4 kB/s 48s
+53% [2 libmysqlclient-dev 211 kB/1,520 kB 14%]                    27.4 kB/s 48s
+53% [2 libmysqlclient-dev 211 kB/1,520 kB 14%]                    27.4 kB/s 48s
+53% [2 libmysqlclient-dev 236 kB/1,520 kB 15%]                    27.4 kB/s 47s
+53% [2 libmysqlclient-dev 236 kB/1,520 kB 15%]                    27.4 kB/s 47s
+54% [2 libmysqlclient-dev 245 kB/1,520 kB 16%]                    27.4 kB/s 46s
+54% [2 libmysqlclient-dev 265 kB/1,520 kB 17%]                    27.4 kB/s 46s
+54% [2 libmysqlclient-dev 275 kB/1,520 kB 18%]                    27.4 kB/s 45s
+55% [2 libmysqlclient-dev 280 kB/1,520 kB 18%]                    27.4 kB/s 45s
+55% [2 libmysqlclient-dev 290 kB/1,520 kB 19%]                19.3 kB/s 1min 4s
+55% [2 libmysqlclient-dev 296 kB/1,520 kB 19%]                19.3 kB/s 1min 3s
+55% [2 libmysqlclient-dev 307 kB/1,520 kB 20%]                19.3 kB/s 1min 3s
+55% [2 libmysqlclient-dev 311 kB/1,520 kB 20%]                19.3 kB/s 1min 3s
+55% [2 libmysqlclient-dev 318 kB/1,520 kB 21%]                19.3 kB/s 1min 2s
+56% [2 libmysqlclient-dev 326 kB/1,520 kB 21%]                19.3 kB/s 1min 2s
+56% [2 libmysqlclient-dev 331 kB/1,520 kB 22%]                19.3 kB/s 1min 2s
+56% [2 libmysqlclient-dev 337 kB/1,520 kB 22%]                19.3 kB/s 1min 1s
+56% [2 libmysqlclient-dev 339 kB/1,520 kB 22%]                19.3 kB/s 1min 1s
+56% [2 libmysqlclient-dev 348 kB/1,520 kB 23%]                19.3 kB/s 1min 1s
+56% [2 libmysqlclient-dev 354 kB/1,520 kB 23%]                    19.3 kB/s 60s
+57% [2 libmysqlclient-dev 364 kB/1,520 kB 24%]                    19.3 kB/s 60s
+57% [2 libmysqlclient-dev 369 kB/1,520 kB 24%]               13.2 kB/s 1min 27s
+57% [2 libmysqlclient-dev 374 kB/1,520 kB 25%]               13.2 kB/s 1min 27s
+57% [2 libmysqlclient-dev 380 kB/1,520 kB 25%]               13.2 kB/s 1min 26s
+57% [2 libmysqlclient-dev 388 kB/1,520 kB 26%]               13.2 kB/s 1min 26s
+58% [2 libmysqlclient-dev 397 kB/1,520 kB 26%]               13.2 kB/s 1min 25s
+58% [2 libmysqlclient-dev 408 kB/1,520 kB 27%]               13.2 kB/s 1min 24s
+58% [2 libmysqlclient-dev 418 kB/1,520 kB 27%]               13.2 kB/s 1min 24s
+58% [2 libmysqlclient-dev 431 kB/1,520 kB 28%]               13.2 kB/s 1min 22s
+59% [2 libmysqlclient-dev 445 kB/1,520 kB 29%]               13.2 kB/s 1min 21s
+59% [2 libmysqlclient-dev 454 kB/1,520 kB 30%]               13.2 kB/s 1min 21s
+59% [2 libmysqlclient-dev 472 kB/1,520 kB 31%]               13.2 kB/s 1min 19s
+60% [2 libmysqlclient-dev 489 kB/1,520 kB 32%]               13.2 kB/s 1min 18s
+60% [2 libmysqlclient-dev 500 kB/1,520 kB 33%]                    21.8 kB/s 47s
+60% [2 libmysqlclient-dev 505 kB/1,520 kB 33%]                    21.8 kB/s 47s
+61% [2 libmysqlclient-dev 520 kB/1,520 kB 34%]                    21.8 kB/s 46s
+62% [2 libmysqlclient-dev 558 kB/1,520 kB 37%]                    21.8 kB/s 44s
+62% [2 libmysqlclient-dev 563 kB/1,520 kB 37%]                    21.8 kB/s 44s
+62% [2 libmysqlclient-dev 563 kB/1,520 kB 37%]                    21.8 kB/s 44s
+63% [2 libmysqlclient-dev 606 kB/1,520 kB 40%]                    21.8 kB/s 42s
+63% [2 libmysqlclient-dev 620 kB/1,520 kB 41%]                    21.8 kB/s 41s
+64% [2 libmysqlclient-dev 633 kB/1,520 kB 42%]                    21.8 kB/s 41s
+64% [2 libmysqlclient-dev 640 kB/1,520 kB 42%]                    21.8 kB/s 40s
+64% [2 libmysqlclient-dev 662 kB/1,520 kB 44%]                    21.8 kB/s 39s
+65% [2 libmysqlclient-dev 683 kB/1,520 kB 45%]                    21.8 kB/s 38s
+65% [2 libmysqlclient-dev 693 kB/1,520 kB 46%]                    32.1 kB/s 26s
+65% [2 libmysqlclient-dev 702 kB/1,520 kB 46%]                    32.1 kB/s 25s
+66% [2 libmysqlclient-dev 714 kB/1,520 kB 47%]                    32.1 kB/s 25s
+66% [2 libmysqlclient-dev 722 kB/1,520 kB 48%]                    32.1 kB/s 25s
+66% [2 libmysqlclient-dev 732 kB/1,520 kB 48%]                    32.1 kB/s 24s
+66% [2 libmysqlclient-dev 734 kB/1,520 kB 48%]                    32.1 kB/s 24s
+67% [2 libmysqlclient-dev 747 kB/1,520 kB 49%]                    32.1 kB/s 24s
+67% [2 libmysqlclient-dev 759 kB/1,520 kB 50%]                    32.1 kB/s 24s
+67% [2 libmysqlclient-dev 759 kB/1,520 kB 50%]                    32.1 kB/s 24s
+67% [2 libmysqlclient-dev 767 kB/1,520 kB 50%]                    32.1 kB/s 23s
+67% [2 libmysqlclient-dev 771 kB/1,520 kB 51%]                    32.1 kB/s 23s
+67% [2 libmysqlclient-dev 772 kB/1,520 kB 51%]                    32.1 kB/s 23s
+67% [2 libmysqlclient-dev 776 kB/1,520 kB 51%]                    13.9 kB/s 54s
+67% [2 libmysqlclient-dev 776 kB/1,520 kB 51%]                    13.9 kB/s 54s
+67% [2 libmysqlclient-dev 783 kB/1,520 kB 51%]                    13.9 kB/s 53s
+68% [2 libmysqlclient-dev 787 kB/1,520 kB 52%]                    13.9 kB/s 53s
+68% [2 libmysqlclient-dev 790 kB/1,520 kB 52%]                    13.9 kB/s 53s
+68% [2 libmysqlclient-dev 796 kB/1,520 kB 52%]                    13.9 kB/s 52s
+68% [2 libmysqlclient-dev 802 kB/1,520 kB 53%]                    13.9 kB/s 52s
+68% [2 libmysqlclient-dev 806 kB/1,520 kB 53%]                    13.9 kB/s 52s
+68% [2 libmysqlclient-dev 813 kB/1,520 kB 53%]                    13.9 kB/s 51s
+68% [2 libmysqlclient-dev 819 kB/1,520 kB 54%]                    13.9 kB/s 51s
+69% [2 libmysqlclient-dev 827 kB/1,520 kB 54%]                    13.9 kB/s 50s
+69% [2 libmysqlclient-dev 831 kB/1,520 kB 55%]                    13.9 kB/s 50s
+69% [2 libmysqlclient-dev 840 kB/1,520 kB 55%]                10.5 kB/s 1min 5s
+69% [2 libmysqlclient-dev 846 kB/1,520 kB 56%]                10.5 kB/s 1min 4s
+70% [2 libmysqlclient-dev 864 kB/1,520 kB 57%]                10.5 kB/s 1min 3s
+70% [2 libmysqlclient-dev 873 kB/1,520 kB 57%]                10.5 kB/s 1min 2s
+70% [2 libmysqlclient-dev 891 kB/1,520 kB 59%]                    10.5 kB/s 60s
+71% [2 libmysqlclient-dev 911 kB/1,520 kB 60%]                    10.5 kB/s 58s
+71% [2 libmysqlclient-dev 915 kB/1,520 kB 60%]                    10.5 kB/s 58s
+71% [2 libmysqlclient-dev 920 kB/1,520 kB 61%]                    10.5 kB/s 57s
+72% [2 libmysqlclient-dev 941 kB/1,520 kB 62%]                    10.5 kB/s 55s
+72% [2 libmysqlclient-dev 945 kB/1,520 kB 62%]                    10.5 kB/s 55s
+72% [2 libmysqlclient-dev 955 kB/1,520 kB 63%]                    10.5 kB/s 54s
+72% [2 libmysqlclient-dev 970 kB/1,520 kB 64%]                    10.5 kB/s 53s
+73% [2 libmysqlclient-dev 985 kB/1,520 kB 65%]                    24.2 kB/s 22s
+73% [2 libmysqlclient-dev 996 kB/1,520 kB 66%]                    24.2 kB/s 22s
+73% [2 libmysqlclient-dev 1,011 kB/1,520 kB 66%]                  24.2 kB/s 21s
+74% [2 libmysqlclient-dev 1,023 kB/1,520 kB 67%]                  24.2 kB/s 20s
+74% [2 libmysqlclient-dev 1,035 kB/1,520 kB 68%]                  24.2 kB/s 20s
+74% [2 libmysqlclient-dev 1,048 kB/1,520 kB 69%]                  24.2 kB/s 19s
+75% [2 libmysqlclient-dev 1,063 kB/1,520 kB 70%]                  24.2 kB/s 19s
+75% [2 libmysqlclient-dev 1,073 kB/1,520 kB 71%]                  24.2 kB/s 18s
+75% [2 libmysqlclient-dev 1,096 kB/1,520 kB 72%]                  24.2 kB/s 17s
+76% [2 libmysqlclient-dev 1,113 kB/1,520 kB 73%]                  24.2 kB/s 17s
+76% [2 libmysqlclient-dev 1,129 kB/1,520 kB 74%]                  24.2 kB/s 16s
+77% [2 libmysqlclient-dev 1,146 kB/1,520 kB 75%]                  24.2 kB/s 15s
+77% [2 libmysqlclient-dev 1,159 kB/1,520 kB 76%]                  28.9 kB/s 12s
+78% [2 libmysqlclient-dev 1,175 kB/1,520 kB 77%]                  28.9 kB/s 12s
+78% [2 libmysqlclient-dev 1,187 kB/1,520 kB 78%]                  28.9 kB/s 11s
+78% [2 libmysqlclient-dev 1,194 kB/1,520 kB 79%]                  28.9 kB/s 11s
+78% [2 libmysqlclient-dev 1,206 kB/1,520 kB 79%]                  28.9 kB/s 11s
+78% [2 libmysqlclient-dev 1,208 kB/1,520 kB 79%]                  28.9 kB/s 11s
+78% [2 libmysqlclient-dev 1,208 kB/1,520 kB 79%]                  28.9 kB/s 11s
+79% [2 libmysqlclient-dev 1,220 kB/1,520 kB 80%]                  28.9 kB/s 10s
+79% [2 libmysqlclient-dev 1,237 kB/1,520 kB 81%]                  28.9 kB/s 10s
+79% [2 libmysqlclient-dev 1,239 kB/1,520 kB 81%]                  28.9 kB/s 10s
+79% [2 libmysqlclient-dev 1,249 kB/1,520 kB 82%]                   28.9 kB/s 9s
+79% [2 libmysqlclient-dev 1,249 kB/1,520 kB 82%]                   28.9 kB/s 9s
+80% [2 libmysqlclient-dev 1,253 kB/1,520 kB 82%]                  15.7 kB/s 17s
+80% [2 libmysqlclient-dev 1,261 kB/1,520 kB 83%]                  15.7 kB/s 17s
+80% [2 libmysqlclient-dev 1,271 kB/1,520 kB 84%]                  15.7 kB/s 16s
+80% [2 libmysqlclient-dev 1,286 kB/1,520 kB 85%]                  15.7 kB/s 15s
+81% [2 libmysqlclient-dev 1,298 kB/1,520 kB 85%]                  15.7 kB/s 14s
+81% [2 libmysqlclient-dev 1,306 kB/1,520 kB 86%]                  15.7 kB/s 14s
+81% [2 libmysqlclient-dev 1,321 kB/1,520 kB 87%]                  15.7 kB/s 13s
+82% [2 libmysqlclient-dev 1,330 kB/1,520 kB 87%]                  15.7 kB/s 12s
+82% [2 libmysqlclient-dev 1,348 kB/1,520 kB 89%]                  15.7 kB/s 11s
+82% [2 libmysqlclient-dev 1,363 kB/1,520 kB 90%]                  15.7 kB/s 10s
+83% [2 libmysqlclient-dev 1,369 kB/1,520 kB 90%]                  15.7 kB/s 10s
+83% [2 libmysqlclient-dev 1,379 kB/1,520 kB 91%]                   15.7 kB/s 9s
+83% [2 libmysqlclient-dev 1,388 kB/1,520 kB 91%]                   22.4 kB/s 6s
+83% [2 libmysqlclient-dev 1,394 kB/1,520 kB 92%]                   22.4 kB/s 6s
+83% [2 libmysqlclient-dev 1,402 kB/1,520 kB 92%]                   22.4 kB/s 5s
+83% [2 libmysqlclient-dev 1,406 kB/1,520 kB 92%]                   22.4 kB/s 5s
+83% [2 libmysqlclient-dev 1,406 kB/1,520 kB 92%]                   22.4 kB/s 5s
+84% [2 libmysqlclient-dev 1,419 kB/1,520 kB 93%]                   22.4 kB/s 4s
+84% [2 libmysqlclient-dev 1,427 kB/1,520 kB 94%]                   22.4 kB/s 4s
+84% [2 libmysqlclient-dev 1,435 kB/1,520 kB 94%]                   22.4 kB/s 4s
+85% [2 libmysqlclient-dev 1,450 kB/1,520 kB 95%]                   22.4 kB/s 3s
+85% [2 libmysqlclient-dev 1,464 kB/1,520 kB 96%]                   22.4 kB/s 2s
+85% [2 libmysqlclient-dev 1,474 kB/1,520 kB 97%]                   22.4 kB/s 2s
+86% [2 libmysqlclient-dev 1,497 kB/1,520 kB 98%]                   22.4 kB/s 1s
+86% [2 libmysqlclient-dev 1,505 kB/1,520 kB 99%]                   19.5 kB/s 1s
+93% [Waiting for headers]                                          19.5 kB/s 0s
+                                                                               
+Get:3 http://in.archive.ubuntu.com/ubuntu eoan-updates/main amd64 mysql-client all 8.0.19-0ubuntu0.19.10.3 [9,420 B]
+
+93% [3 mysql-client 1,119 B/9,420 B 12%]                           19.5 kB/s 0s
+93% [3 mysql-client 6,511 B/9,420 B 69%]                           19.5 kB/s 0s
+100% [Working]                                                     19.5 kB/s 0s
+                                                                               
+Fetched 3,108 kB in 2min 32s (20.5 kB/s)
+Selecting previously unselected package libssl-dev:amd64.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 165821 files and directories currently installed.)
+Preparing to unpack .../libssl-dev_1.1.1c-1ubuntu4_amd64.deb ...
+Unpacking libssl-dev:amd64 (1.1.1c-1ubuntu4) ...
+Selecting previously unselected package libmysqlclient-dev.
+Preparing to unpack .../libmysqlclient-dev_8.0.19-0ubuntu0.19.10.3_amd64.deb ...
+Unpacking libmysqlclient-dev (8.0.19-0ubuntu0.19.10.3) ...
+Selecting previously unselected package mysql-client.
+Preparing to unpack .../mysql-client_8.0.19-0ubuntu0.19.10.3_all.deb ...
+Unpacking mysql-client (8.0.19-0ubuntu0.19.10.3) ...
+Setting up mysql-client (8.0.19-0ubuntu0.19.10.3) ...
+Setting up libssl-dev:amd64 (1.1.1c-1ubuntu4) ...
+Setting up libmysqlclient-dev (8.0.19-0ubuntu0.19.10.3) ...
+Processing triggers for man-db (2.8.7-3) ...
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+E: Unable to locate package apache2-npm-prefork
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+Note, selecting 'php7.0-thrift' for regex 'php7.0'
+Note, selecting 'php7.0-remctl' for regex 'php7.0'
+Note, selecting 'php7.0-common' for regex 'php7.0'
+Note, selecting 'php7.0-curl' for regex 'php7.0'
+Note, selecting 'php-remctl' instead of 'php7.0-remctl'
+Package php7.0-common is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Package php7.0-cur
+
+
+Building dependency tree... 0%
+
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ ./lamp.shsudo chmod 777 lamp.sh[10Pnano[C[C[C[C[C[C[C[C
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 16 lines ](B[m[H(B[0;7m  GNU nano 4.3                        lamp.sh                                   [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[2d[39;49m[36m#!/bin/bash
+[4d# update list
+[5d[39m(B[msudo apt update
+[7d[36m# install my-sql
+[8d[39m(B[msudo apt-get (B[0;1m[34minstall[35m -y[39m(B[m mysql-server mysql-client libmysqlclient-dev
+[10d[36m# install apache server
+[11d[39m(B[msudo apt-get (B[0;1m[34minstall[35m -y[39m(B[m apache2 apache2-doc apache2-npm-prefork apache2-utils l(B[0;7m>[13;1H(B[0m[36m# install PHP
+[14d[39m(B[msudo apt-get (B[0;1m[34minstall[35m -y[39m(B[m libapache2-mod-php7.0 php7.0 php7.0-common php7.0-curl (B[0;7m>[16;1H(B[0m[36m# restart apache2
+[17d[39m(B[msudo systemctl restart apache2
+[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25ls[?12l[?25h[?25lu[?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lp[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lu[?12l[?25h[?25lp[?12l[?25h[?25ld[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[6;21r[6;1HM[1;24r[6;1H[?12l[?25h[?25l[36m#[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m i[39m(B[m[?12l[?25h[?25l[36mn[39m(B[m[?12l[?25h[?25l[36ma[39m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[36ms
+[22d[39m(B[m[K[6;6H[?12l[?25h[?25l[36mt[39m(B[m[?12l[?25h[?25l[36ma[39m(B[m[?12l[?25h[?25l[36ml[39m(B[m[?12l[?25h[?25l[36ml[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m a[39m(B[m[?12l[?25h[?25l[36mp[39m(B[m[?12l[?25h[?25l[36ma[39m(B[m[?12l[?25h[?25l[36mc[39m(B[m[?12l[?25h[?25l[36mh[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[36m2[39m(B[m[?12l[?25h[?25l7[7;22r8
+[7dM[1;24r[7;1H[?12l[?25h[?25l[20d[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l7[7;22r8
+[7dM[1;24r[7;1H[?12l[?25h[?25l[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K
+[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l[?12l[?25h[?25l
+[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ nano lamp.sh
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 16 lines ](B[m[H(B[0;7m  GNU nano 4.3                        lamp.sh                                   [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[2d[39;49m[36m#!/bin/bash
+[4d# update list
+[5d[39m(B[msudo apt update
+[7d[36m# install my-sql
+[8d[39m(B[msudo apt-get (B[0;1m[34minstall[35m -y[39m(B[m mysql-server mysql-client libmysqlclient-dev
+[10d[36m# install apache server
+[11d[39m(B[msudo apt-get (B[0;1m[34minstall[35m -y[39m(B[m apache2 apache2-doc apache2-npm-prefork apache2-utils l(B[0;7m>[13;1H(B[0m[36m# install PHP
+[14d[39m(B[msudo apt-get (B[0;1m[34minstall[35m -y[39m(B[m libapache2-mod-php7.0 php7.0 php7.0-common php7.0-curl (B[0;7m>[16;1H(B[0m[36m# restart apache2
+[17d[39m(B[msudo systemctl restart apache2
+[2d[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25ls[?12l[?25h[?25lu[?12l[?25h[?25ld[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25lp[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lu[?12l[?25h[?25lp[?12l[?25h[?25ld[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[6;21r[6;1HM[1;24r[6;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[36m#[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m i[39m(B[m[?12l[?25h[?25l[36mn[39m(B[m[?12l[?25h[?25l[36ms[39m(B[m[?12l[?25h[?25l[36mt[39m(B[m[?12l[?25h[?25l[36ma
+[22d[39m(B[m[K[6;8H[?12l[?25h[?25l[36ml[39m(B[m[?12l[?25h[?25l[36ml[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[36m a[39m(B[m[?12l[?25h[?25l[36mp[39m(B[m[?12l[?25h[?25l[36ma[39m(B[m[?12l[?25h[?25l[36mc[39m(B[m[?12l[?25h[?25l[36mh[39m(B[m[?12l[?25h[?25l[36me[39m(B[m[?12l[?25h[?25l[36m2[39m(B[m[?12l[?25h[?25l
+[7d[?12l[?25h[?25l[8;17H[?12l[?25h[?25l[9;18H[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lq[?12l[?25h[?25ll[?12l[?25h[?25l-[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lq[?12l[?25h[?25ll[?12l[?25h[?25l-[?12l[?25h[?25lc[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25lb[?12l[?25h[?25lm[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lq[?12l[?25h[?25ll[?12l[?25h[?25lc[?12l[?25h[?25ll[?12l[?25h[?25li[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lt[?12l[?25h[?25l-[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lv[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l -[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lq[?12l[?25h[?25ll[?12l[?25h[?25l-[?12l[?25h[?25ls[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l7[10;22r8
+[10dM[1;24r[9;34H 
+[10d[42m [49m(B[m[?12l[?25h[?25lsudo mysql_secure_installation[42m [49m(B[m[?12l[?25h[?25l[A[?12l[?25h[?25l[8;17H[?12l[?25h[?25l
+[A[?12l[?25h[?25l[6;18H[?12l[?25h[?25l7[7;22r8
+[7dM[1;24r[7;1H[?12l[?25h[?25lsudo apt-get (B[0;1m[34minstall[35m -y[39m(B[m apache2[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l -[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l
+[8d[?12l[?25h[?25l[9;17H[?12l[?25h[?25l[10;21H[?12l[?25h[?25l[11d[?12l[?25h[?25l
+[12d[?12l[?25h[?25l[13;21H[?12l[?25h[?25l[14d[?12l[?25h[?25l
+[15d[?12l[?25h[?25l[A(B[0;7m<(B[mtils libexpat1 ssl-cert[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l
+sudo apt-get (B[0;1m[34minstall[35m -y[39m(B[m apache2 apache2-doc apache2-npm-prefork apache2-utils[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l[32mdo[39m(B[m[K[?12l[?25h[?25ld[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l -[K[?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l[14Ginstal[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[32min[39m(B[m[K[?12l[?25h[?25li[K[?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l[32m-ge[39m(B[m[K[?12l[?25h[?25l-g[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[14;22r[22;1H
+[1;24r[13;24H[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[12;22r[22;1H
+[1;24r[12;1H[?12l[?25h[?25l[12;22r[22;1H
+[1;24r[11;32H[?12l[?25h[?25l
+[12d[?12l[?25h[?25l[13;14H[?12l[?25h[?25l[14;32H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl p[14;31H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl ph[14;30H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php[14;29H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7[14;28H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.[14;27H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0[14;26H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-[14;25H[?12l[?25h[?25l -yhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-d[14;24H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-de[14;23H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev[14;22H[?12l[?25h[?25l[14;14Hinstallhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev [14;21H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev p[14;20H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev ph[14;19H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php[14;18H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7[14;17H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.[14;16H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0[14;15H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-[14;14H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-g[14;13H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd[14;12H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd [14;11H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd p[14;10H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd ph[14;9H[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php[8G[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php-[7G[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php-p[6G[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php-pe[5G[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php-pea
+sud[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php-pear
+su[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php-pear 
+s[?12l[?25h[?25lhe2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php-pear p
+[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25l2[?12l[?25h[?25l-[?12l[?25h[?25lm[?12l[?25h[?25lo[?12l[?25h[?25ld[?12l[?25h[?25l-[?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l7[?12l[?25h[?25l.[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l7[?12l[?25h[?25l.[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l7[?12l[?25h[?25l.[?12l[?25h[?25l0[?12l[?25h[?25l-[?12l[?25h[?25lc[?12l[?25h[?25lo[?12l[?25h[?25lm[?12l[?25h[?25lm[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l7[?12l[?25h[?25l.[?12l[?25h[?25l0[?12l[?25h[?25l-[?12l[?25h[?25lc[?12l[?25h[?25lu[?12l[?25h[?25lr[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l7[?12l[?25h[?25l.[?12l[?25h[?25l0[?12l[?25h[?25l-[?12l[?25h[?25ld[?12l[?25h[?25le[?12l[?25h[?25lv[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l7[?12l[?25h[?25l.[?12l[?25h[?25l0[?12l[?25h[?25l-[?12l[?25h[?25lg[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l-[?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25lr[?12l[?25h[?25l
+(B[0;7m<(B[mpear php-imagick php7.0-mcrypt php7.0-mysql php7.0-ps php7.0-xsl[K[7G[?12l[?25h[?25l
+he2-mod-php7.0 php7.0 php7.0-common php7.0-curl php7.0-dev php7.0-gd php-pearph(B[0;7m>[14;78H(B[m[?12l[?25h[?25lphp[?12l[?25h[?25lphp-[?12l[?25h[?25lphp-i[75G[?12l[?25h[?25lhp-im[74G[?12l[?25h[?25lphp-ima[73G[?12l[?25h[?25lhp-imag[14;72H[?12l[?25h[?25lphp-imagi[14;71H[?12l[?25h[?25lhp-imagic[14;70H[?12l[?25h[?25lphp-imagick[14;69H[?12l[?25h[?25lphp-imagick [14;68H[?12l[?25h[?25lphp-imagick p[14;67H[?12l[?25h[?25lphp-imagick ph[14;66H[?12l[?25h[?25lphp-imagick php[14;65H[?12l[?25h[?25lphp-imagick php7[14;64H[?12l[?25h[?25lphp-imagick php7.[14;63H[?12l[?25h[?25lhp-imagick php7.0[14;62H[?12l[?25h[?25lphp-imagick php7.0-[14;61H[?12l[?25h[?25lhp-imagick php7.0-m[14;60H[?12l[?25h[?25lphp-imagick php7.0-mc[14;59H[?12l[?25h[?25lphp-imagick php7.0-mcr[14;58H[?12l[?25h[?25lphp-imagick php7.0-mcry[14;57H[?12l[?25h[?25lphp-imagick php7.0-mcryp[14;56H[?12l[?25h[?25lphp-imagick php7.0-mcrypt[14;55H[?12l[?25h[?25lphp-imagick php7.0-mcrypt [14;54H[?12l[?25h[?25lphp-imagick php7.0-mcrypt p[14;53H[?12l[?25h[?25lphp-imagick php7.0-mcrypt ph[14;52H[?12l[?25h[?25lhp-imagick php7.0-mcrypt php[14;51H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7[14;50H[?12l[?25h[?25lhp-imagick php7.0-mcrypt php7.[14;49H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0[14;48H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-[14;47H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-m[14;46H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-my[14;45H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mys[14;44H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysq[14;43H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql[14;42H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql [14;41H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql p[14;40H[?12l[?25h[?25lhp-imagick php7.0-mcrypt php7.0-mysql ph[14;39H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php[14;38H[?12l[?25h[?25lhp-imagick php7.0-mcrypt php7.0-mysql php7[14;37H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.[14;36H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.0[14;35H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.0-[14;34H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.0-p[14;33H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.0-ps[14;32H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.0-ps [14;31H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.0-ps p[14;30H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.0-ps ph[14;29H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.0-ps php[14;28H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.0-ps php7[14;27H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.0-ps php7.[14;26H[?12l[?25h[?25lhp-imagick php7.0-mcrypt php7.0-mysql php7.0-ps php7.0[14;25H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.0-ps php7.0-[14;24H[?12l[?25h[?25lhp-imagick php7.0-mcrypt php7.0-mysql php7.0-ps php7.0-x[14;23H[?12l[?25h[?25lphp-imagick php7.0-mcrypt php7.0-mysql php7.0-ps php7.0-xsl[14;22H[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l-[?12l[?25h[?25li[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lg[?12l[?25h[?25li[?12l[?25h[?25lc[?12l[?25h[?25lk[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l7[?12l[?25h[?25l.[?12l[?25h[?25l0[?12l[?25h[?25l-[?12l[?25h[?25lm[?12l[?25h[?25lc[?12l[?25h[?25lr[?12l[?25h[?25ly[?12l[?25h[?25lp[?12l[?25h[?25lt[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l7[?12l[?25h[?25l.[?12l[?25h[?25l0[?12l[?25h[?25l-[?12l[?25h[?25lm[?12l[?25h[?25ly[?12l[?25h[?25ls[?12l[?25h[?25lq[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l7[?12l[?25h[?25l.[?12l[?25h[?25l0[?12l[?25h[?25l-[?12l[?25h[?25lp[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lp[?12l[?25h[?25lh[?12l[?25h[?25lp[?12l[?25h[?25l7[?12l[?25h[?25l.[?12l[?25h[?25l0[?12l[?25h[?25l-[?12l[?25h[?25lx[?12l[?25h[?25ls[?12l[?25h[?25ll[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25lsudo apt (B[0;1m[34minstall[39m(B[m php libapache2-mod-php php-mysql[?12l[?25h[?25l
+[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K
+[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l
+[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File
+[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files
+[22d(B[0;7mFile Name to Write: lamp.sh
+(B[m[22;28H[?12l[?25h[?25l
+[K[1;79H[22;34H(B[0;7m[ Writing... ](B[m[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 16 lines ](B[m
+[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ nano lamp.sh[3P./lamp.shsudo chmod 777 lamp.sh
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo chmod 777 lamp.sh[10Pnano[C[C[C[C[C[C[C[C[3P./lamp.sh
+[33m
+0% [Working][0m[33m
+0% [Connecting to in.archive.ubuntu.com (103.97.84.254)][0m
+                                                        
+Hit:1 http://in.archive.ubuntu.com/ubuntu eoan InRelease
+[33m
+                                                        
+0% [Working][0m
+            
+Get:2 http://in.archive.ubuntu.com/ubuntu eoan-updates InRelease [97.5 kB]
+[33m
+0% [2 InRelease 1,082 B/97.5 kB 1%][0m[33m
+0% [2 InRelease 5,126 B/97.5 kB 5%][0m[33m
+0% [2 InRelease 40.2 kB/97.5 kB 41%][0m[33m
+0% [2 InRelease 71.2 kB/97.5 kB 73%] [Connecting to linux.teamviewer.com][0m[33m
+0% [2 InRelease 76.6 kB/97.5 kB 79%] [Connecting to linux.teamviewer.com][0m[33m
+0% [2 InRelease 88.7 kB/97.5 kB 91%] [Connecting to linux.teamviewer.com (13.22[0m
+                                                                               
+Hit:3 http://linux.teamviewer.com/deb stable InRelease
+[33m
+                                                                               
+0% [2 InRelease 88.7 kB/97.5 kB 91%][0m[33m
+                                    
+0% [Waiting for headers][0m[33m
+0% [Waiting for headers][0m
+                        
+Get:4 http://in.archive.ubuntu.com/ubuntu eoan-backports InRelease [88.8 kB]
+[33m
+0% [4 InRelease 2,430 B/88.8 kB 3%][0m[33m
+0% [4 InRelease 6,474 B/88.8 kB 7%][0m[33m
+0% [4 InRelease 10.5 kB/88.8 kB 12%][0m[33m
+0% [4 InRelease 25.3 kB/88.8 kB 29%][0m[33m
+0% [4 InRelease 42.9 kB/88.8 kB 48%] [Connecting to security.ubuntu.com][0m[33m
+0% [4 InRelease 53.7 kB/88.8 kB 60%] [Connecting to security.ubuntu.com (91.189[0m[33m
+0% [4 InRelease 68.5 kB/88.8 kB 77%] [Waiting for headers]         27.0 kB/s 7s[0m
+                                                                               
+Hit:5 http://security.ubuntu.com/ubuntu eoan-security InRelease
+[33m
+0% [4 InRelease 71.2 kB/88.8 kB 80%]                               27.0 kB/s 7s[0m[33m
+0% [4 InRelease 79.3 kB/88.8 kB 89%]                               27.0 kB/s 7s[0m[33m
+0% [Working]                                                       27.0 kB/s 6s[0m[33m
+59% [Waiting for headers]                                          27.0 kB/s 7s[0m[33m
+59% [Waiting for headers]                                          27.0 kB/s 7s[0m
+                                                                               
+Get:6 http://in.archive.ubuntu.com/ubuntu eoan-updates/main amd64 DEP-11 Metadata [73.0 kB]
+[33m
+59% [6 Components-amd64 1,082 B/73.0 kB 1%]                        27.0 kB/s 6s[0m[33m
+59% [6 Components-amd64 2,430 B/73.0 kB 3%]                        27.0 kB/s 6s[0m[33m
+61% [6 Components-amd64 7,822 B/73.0 kB 11%]                       27.0 kB/s 6s[0m[33m
+62% [6 Components-amd64 14.6 kB/73.0 kB 20%]                       27.0 kB/s 6s[0m[33m
+63% [6 Components-amd64 17.3 kB/73.0 kB 24%]                       27.0 kB/s 6s[0m[33m
+63% [6 Components-amd64 21.3 kB/73.0 kB 29%]                       27.0 kB/s 6s[0m[33m
+66% [6 Components-amd64 30.7 kB/73.0 kB 42%]                       27.0 kB/s 5s[0m[33m
+67% [6 Components-amd64 36.1 kB/73.0 kB 49%]                       27.0 kB/s 5s[0m[33m
+68% [6 Components-amd64 41.5 kB/73.0 kB 57%]                       27.0 kB/s 5s[0m[33m
+70% [6 Components-amd64 49.6 kB/73.0 kB 68%]                      11.5 kB/s 12s[0m[33m
+70% [6 Components-amd64 51.0 kB/73.0 kB 70%]                      11.5 kB/s 12s[0m[33m
+71% [6 Components-amd64 57.7 kB/73.0 kB 79%]                      11.5 kB/s 11s[0m[33m
+72% [6 Components-amd64 59.0 kB/73.0 kB 81%]                      11.5 kB/s 11s[0m[33m
+72% [6 Components-amd64 59.0 kB/73.0 kB 81%]                      11.5 kB/s 11s[0m[33m
+72% [6 Components-amd64 59.0 kB/73.0 kB 81%]                      11.5 kB/s 11s[0m[33m
+72% [6 Components-amd64 59.0 kB/73.0 kB 81%]                      11.5 kB/s 11s[0m[33m
+72% [6 Components-amd64 60.4 kB/73.0 kB 83%]                      11.5 kB/s 11s[0m[33m
+72% [6 Components-amd64 63.1 kB/73.0 kB 86%]                      11.5 kB/s 10s[0m[33m
+74% [6 Components-amd64 68.5 kB/73.0 kB 94%]                      11.5 kB/s 10s[0m[33m
+75% [Working]                                                     11.5 kB/s 10s[0m
+                                                                               
+Get:7 http://in.archive.ubuntu.com/ubuntu eoan-updates/main DEP-11 48x48 Icons [9,942 B]
+[33m
+75% [7 icons-48x48 1,926 B/9,942 B 19%]                            11.5 kB/s 9s[0m[33m
+                                                                               
+75% [6 Components-amd64 store 0 B] [7 icons-48x48 1,926 B/9,942 B 19%][0m[33m
+75% [7 icons-48x48 3,274 B/9,942 B 33%]                            11.5 kB/s 9s[0m[33m
+77% [Working]                                                      11.5 kB/s 9s[0m
+                                                                               
+Get:8 http://in.archive.ubuntu.com/ubuntu eoan-updates/main DEP-11 64x64 Icons [15.1 kB]
+[33m
+77% [8 icons-64x64 1,155 B/15.1 kB 8%]                             11.5 kB/s 9s[0m[33m
+77% [7 icons-48x48 store 0 B] [8 icons-64x64 1,155 B/15.1 kB 8%]   11.5 kB/s 9s[0m[33m
+77% [8 icons-64x64 1,155 B/15.1 kB 8%]                             11.5 kB/s 9s[0m[33m
+79% [8 icons-64x64 7,895 B/15.1 kB 52%]                            11.5 kB/s 8s[0m[33m
+80% [8 icons-64x64 13.3 kB/15.1 kB 88%]                           7,491 B/s 12s[0m[33m
+80% [Waiting for headers]                                         7,491 B/s 12s[0m
+                                                                               
+Get:9 http://in.archive.ubuntu.com/ubuntu eoan-updates/universe amd64 DEP-11 Metadata [27.7 kB]
+[33m
+80% [9 Components-amd64 619 B/27.7 kB 2%]                         7,491 B/s 12s[0m[33m
+                                                                               
+80% [8 icons-64x64 store 0 B] [9 Components-amd64 619 B/27.7 kB 2%][0m[33m
+80% [9 Components-amd64 619 B/27.7 kB 2%]                         7,491 B/s 12s[0m[33m
+82% [9 Components-amd64 8,707 B/27.7 kB 31%]                      7,491 B/s 11s[0m[33m
+83% [9 Components-amd64 14.1 kB/27.7 kB 51%]                      7,491 B/s 10s[0m[33m
+83% [9 Components-amd64 15.4 kB/27.7 kB 56%]                      7,491 B/s 10s[0m[33m
+85% [9 Components-amd64 23.5 kB/27.7 kB 85%]                       7,491 B/s 9s[0m[33m
+86% [9 Components-amd64 26.2 kB/27.7 kB 95%]                       7,491 B/s 8s[0m[33m
+86% [Waiting for headers]                                          7,491 B/s 8s[0m
+                                                                               
+Get:10 http://in.archive.ubuntu.com/ubuntu eoan-updates/universe DEP-11 48x48 Icons [18.5 kB]
+[33m
+87% [10 icons-48x48 4,990 B/18.5 kB 27%]                           7,491 B/s 7s[0m[33m
+                                                                               
+87% [9 Components-amd64 store 0 B] [10 icons-48x48 4,990 B/18.5 kB 27%][0m[33m
+87% [10 icons-48x48 4,990 B/18.5 kB 27%]                           7,491 B/s 7s[0m[33m
+89% [10 icons-48x48 11.7 kB/18.5 kB 63%]                           7,491 B/s 6s[0m[33m
+90% [Working]                                                      7,491 B/s 6s[0m
+                                                                               
+Get:11 http://in.archive.ubuntu.com/ubuntu eoan-updates/universe DEP-11 64x64 Icons [37.2 kB]
+[33m
+90% [11 icons-64x64 1,033 B/37.2 kB 3%]                            7,491 B/s 5s[0m[33m
+                                                                               
+90% [10 icons-48x48 store 0 B] [11 icons-64x64 1,033 B/37.2 kB 3%][0m[33m
+90% [11 icons-64x64 1,033 B/37.2 kB 3%]                            7,491 B/s 5s[0m[33m
+92% [11 icons-64x64 6,425 B/37.2 kB 17%]                           7,491 B/s 5s[0m[33m
+93% [11 icons-64x64 11.8 kB/37.2 kB 32%]                           7,491 B/s 4s[0m[33m
+93% [11 icons-64x64 11.8 kB/37.2 kB 32%]                           7,491 B/s 4s[0m[33m
+93% [11 icons-64x64 11.8 kB/37.2 kB 32%]                           7,491 B/s 4s[0m[33m
+93% [11 icons-64x64 11.8 kB/37.2 kB 32%]                           7,491 B/s 4s[0m[33m
+93% [11 icons-64x64 11.8 kB/37.2 kB 32%]                           9,228 B/s 3s[0m[33m
+93% [11 icons-64x64 13.2 kB/37.2 kB 35%]                           9,228 B/s 3s[0m[33m
+95% [11 icons-64x64 22.6 kB/37.2 kB 61%]                           9,228 B/s 2s[0m[33m
+96% [11 icons-64x64 26.6 kB/37.2 kB 72%]                           9,228 B/s 1s[0m[33m
+98% [Working]                                                      9,228 B/s 0s[0m[33m
+98% [11 icons-64x64 store 0 B] [Waiting for headers]               9,228 B/s 0s[0m[33m
+98% [Waiting for headers]                                          9,228 B/s 0s[0m
+                                                                               
+Get:12 http://in.archive.ubuntu.com/ubuntu eoan-backports/universe amd64 DEP-11 Metadata [7,764 B]
+[33m
+99% [12 Components-amd64 1,293 B/7,764 B 17%]                      9,228 B/s 0s[0m[33m
+100% [Working]                                                     9,228 B/s 0s[0m[33m
+100% [12 Components-amd64 store 0 B]                               9,228 B/s 0s[0m[33m
+100% [Working]                                                     9,228 B/s 0s[0m
+                                                                               
+Fetched 376 kB in 27s (13.8 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 3%
+
+Reading package lists... 3%
+
+Reading package lists... 7%
+
+Reading package lists... 7%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 9%
+
+Reading package lists... 33%
+
+Reading package lists... 42%
+
+Reading package lists... 42%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 93%
+
+Reading package lists... 93%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+All packages are up to date.
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+apache2 is already the newest version (2.4.41-1ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+mysql-server is already the newest version (8.0.19-0ubuntu0.19.10.3).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+Securing the MySQL server deployment.
+
+Enter password for user root: 
+Error: Access denied for user 'root'@'localhost' (using password: YES)
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 0%
+
+Reading state information... Done
+
+libapache2-mod-php is already the newest version (2:7.3+69ubuntu2).
+php is already the newest version (2:7.3+69ubuntu2).
+php-mysql is already the newest version (2:7.3+69ubuntu2).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo nano /etc/apache2/mods-enabled/dir.conf
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;33H(B[0;7m[ Read 5 lines ](B[m[H(B[0;7m  GNU nano 4.3           /etc/apache2/mods-enabled/dir.conf                     [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[2d[39;49m(B[m<IfModule mod_dir.c>[3;9HDirectoryIndex index.php index.html index.cgi index.pl index.xhtml inde(B[0;7m>[4;1H(B[m</IfModule>
+[6d[36m# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+[2d[39m(B[m[?12l[?25h[?25l[22d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo nano /var/www/html/info.php
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.3                 /var/www/html/info.php                           [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[2d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[2d(B[0;1m[32m<?php
+[3d(B[0m[37mphpinfo([39m(B[m);
+[4d(B[0;1m[32m?>[39m(B[m[?12l[?25h[?25l
+[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K
+[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l
+[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File
+[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files
+[22d(B[0;7mFile Name to Write: /var/www/html/info.php
+(B[m[22;43H[?12l[?25h[?25l
+[K[1;79H[22;30H(B[0;7m[ Writing to FIFO... ](B[m[22;30H    (B[0;7m[ Writing... ](B[m[K[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 3 lines ](B[m
+[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo vim /var/www/html/index.php
+sudo: vim: command not found
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo vim /var/www/html/index.php[1P /var/www/html/index.php[1P /var/www/html/index.php[1P /var/www/html/index.phpg /var/www/html/index.phpe /var/www/html/index.phpd /var/www/html/index.phpi /var/www/html/index.phpt /var/www/html/index.php
+
+** (org.gnome.gedit:5309): [1;33mWARNING[0m **: [34m20:54:54.405[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (org.gnome.gedit:5309): [1;33mWARNING[0m **: [34m20:54:54.405[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (org.gnome.gedit:5309): [1;33mWARNING[0m **: [34m20:54:56.772[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo gedit /var/www/html/index.php
+[sudo] password for ng: 
+
+** (org.gnome.gedit:5627): [1;33mWARNING[0m **: [34m21:06:04.901[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (org.gnome.gedit:5627): [1;33mWARNING[0m **: [34m21:06:04.902[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (org.gnome.gedit:5627): [1;33mWARNING[0m **: [34m21:06:07.391[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo gedit /var/www/html/index.php
+
+** (org.gnome.gedit:5808): [1;33mWARNING[0m **: [34m21:14:11.157[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (org.gnome.gedit:5808): [1;33mWARNING[0m **: [34m21:14:11.157[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo gedit /var/www/html/index.php
+
+** (org.gnome.gedit:5892): [1;33mWARNING[0m **: [34m21:16:30.414[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (org.gnome.gedit:5892): [1;33mWARNING[0m **: [34m21:16:30.415[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo gedit /var/www/html/index.php
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksudo gedit /var/www/html/index.php
+
+** (org.gnome.gedit:5932): [1;33mWARNING[0m **: [34m21:34:24.851[0m: Set document metadata failed: Setting attribute metadata::gedit-spell-language not supported
+
+** (org.gnome.gedit:5932): [1;33mWARNING[0m **: [34m21:34:24.851[0m: Set document metadata failed: Setting attribute metadata::gedit-encoding not supported
+
+** (org.gnome.gedit:5932): [1;33mWARNING[0m **: [34m21:34:26.915[0m: Set document metadata failed: Setting attribute metadata::gedit-position not supported
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2020-03-23 21:37:34+05:30 [COMMAND_EXIT_CODE="0"]
