@@ -1,0 +1,138 @@
+Script started on 2020-03-26 11:58:54+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ script work.txtudo mysql -u root -p
+[sudo] password for ng: 
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 11
+Server version: 8.0.19-0ubuntu0.19.10.3 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> select user, host from mysql.user;
++------------------+-----------+
+| user             | host      |
++------------------+-----------+
+| debian-sys-maint | localhost |
+| mysql.infoschema | localhost |
+| mysql.session    | localhost |
+| mysql.sys        | localhost |
+| root             | localhost |
++------------------+-----------+
+5 rows in set (0.01 sec)
+
+mysql> create user remote@'%' identified by 'remote@1234"[57G[K';
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+mysql> [8Gselect user, host from mysql.user;[8G[K[8Gselect user, host from mysql.user;[8Gexit[K[11G[K[10G[K[9G[K[8G[Kcrete [13G[12G[K[11G[K[10G[K[9G[K[8G[Kcreate user remote [26G@'%"[29G[K' identified by 'nivea@1234;[56G[K';
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+mysql> [8Gselect user, host from mysql.user;[41G[K[40G[K[39G[K[38G[K[37G[K[36G[K[35G[K[34G[K[33G[K[32G[K[31G[K[30G[29G[K[28G[K[27G[K[26G[K[25G[24G[K[23G[K[22G[K[21G[K[20G[19G[K[18G[K[17G[K[16G[K[15G[K[14G[13G[K[12G[K[11G[K[10G[K[9G[K[8G[Kcreate user remote@'%' identified by 'sap[48G[K[47G[K[46G[Kredhat@1234
+    '> 
+[1]+  Stopped                 sudo mysql -u root -p
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 12
+Server version: 8.0.19-0ubuntu0.19.10.3 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> [8Gexit[8Gselect user, host from mysql.user;
++------------------+-----------+
+| user             | host      |
++------------------+-----------+
+| debian-sys-maint | localhost |
+| mysql.infoschema | localhost |
+| mysql.session    | localhost |
+| mysql.sys        | localhost |
+| root             | localhost |
++------------------+-----------+
+5 rows in set (0.01 sec)
+
+mysql> [8Gselect user, host from mysql.user;[41G[K[40G[K[39G[K[38G[K[37G[K[36G[K[35G[K[34G[K[33G[K[32G[K[31G[K[30G[29G[K[28G[K[27G[K[26G[K[25G[24G[K[23G[K[22G[K[21G[K[20G[19G[K[18G[K[17G[K[16G[K[15G[K[14G[13G[K[12G[K[11G[K[10G[K[9G[K[8G[Kcreate user @[20G[K[19G remote[20G[1@"rremote"@"%" identified by "niveagigen@1234";
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+mysql> [8Gselect user, host from mysql.user;[8G[Kcreate user "remote"@"%" identified by "redhat@12345";
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+mysql> cre[10G[K[9G[K[8G[Kcreate user "remote"@"%" identified by "redhat@12345";
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+mysql> create user "remote"@"%" identified by "redhat@12345";
+ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
+mysql> create usr[17G[Ker identified [30G[29G[K[28G[K[27G[K[26G[K[25G[K[24G[K[23G[K[22G[K[21G[K[20G[K"ng"@"%" identified by "Ceccs18c@43";
+Query OK, 0 rows affected (0.77 sec)
+
+mysql> grant all prive[22G[K[21G[K[20G[K[19G[K[18G[K[17G[16G[K[15G[K[14G[K[13G[12G[K[11G[K[10G[K[9G[K[8G[KGrant all privileges on *.* to 'ng';
+Query OK, 0 rows affected (1.57 sec)
+
+mysql> [8GGrant all privileges on *.* to 'ng';[8Gselect user, host from mysql.user;[K
++------------------+-----------+
+| user             | host      |
++------------------+-----------+
+| ng               | %         |
+| debian-sys-maint | localhost |
+| mysql.infoschema | localhost |
+| mysql.session    | localhost |
+| mysql.sys        | localhost |
+| root             | localhost |
++------------------+-----------+
+6 rows in set (0.00 sec)
+
+mysql> -- user 'root' oly[25G[K[24G[Knly allowed connections from local [58Ghost
+mysql> [8G-- user 'root' only allowed connections from localhost[20G[P'[19G[P'[18G[P'[17G[P'[17G[1@m'[18G[1@y'[19G[1@d'[19G[P'[19G[1@s'[20G[1@q'[21G[1@l'[22G[1@.'[23G[1@s'[24G[1@y'[25G[1@s'
+mysql> [8G-- user 'mysql.sys' only allowed connections from localhost[25G[P'[24G[P'[24G[1@e'[25G[1@s'[26G[1@s'[27G[1@i'[28G[1@o'[29G[1@n'
+mysql> [8G-- user 'mysql.session' only allowed connections from localhost[29G[P'[28G[P'[27G[P'[26G[P'[25G[P'[24G[P'[23G[P'[23G[1@i'[24G[1@n'[25G[1@f'[26G[1@o'[27G[1@s'[28G[1@c'[29G[1@h'[30G[1@e'[31G[1@m'[32G[1@a'
+mysql> [8G-- user 'mysql.infoschema' only allowed connections from localhost[32G[P'[31G[P'[30G[P'[29G[P'[28G[P'[27G[P'[26G[P'[25G[P'[24G[P'[23G[P'[22G[P'[21G[P'[20G[P'[19G[P'[18G[P'[17G[P'[17G[1@d'[18G[1@e'[19G[1@b'[20G[1@i'[21G[1@a'[22G[1@n'[23G[1@-'[24G[1@s'[25G[1@y'[26G[1@s'[27G[1@-'[28G[1@m'[29G[1@a'[30G[1@i'[31G[1@n'[32G[1@t'
+mysql> [8G-- user 'debian-sys-maint' only allowed connections from localhost[32G[P'[31G[P'[30G[P'[29G[P'[28G[P'[27G[P'[26G[P'[25G[P'[24G[P'[23G[P'[22G[P'[21G[P'[20G[P'[19G[P'[18G[P'[17G[P'[17G[1@n'[18G[1@g'' only a[24G[P [23G[P [22G[P [21G[P [21G[Pa allowed connections from local[50Ghost[K[49Ghost[K[48Ghost[K[47Ghost[K[46Ghost[K[46Gahost[47Gnhost[48Gyhost[49G hosthost (% meaning)
+mysql> 
+mysql> exit
+Bye
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo mysql -u root -p
+Enter password: 
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 13
+Server version: 8.0.19-0ubuntu0.19.10.3 (Ubuntu)
+
+Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> exit
+Bye
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo mysql -u root -p[6Pcript work.txtudo mysql -u root -psystemctl restart mysqlnano /etc/mysql/mysql.conf.d/mysqld.cnf
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;34H(B[0;7m[ Reading... ](B[m[22;32H(B[0;7m[ Read 79 lines ](B[m[H(B[0;7m  GNU nano 4.3           /etc/mysql/mysql.conf.d/mysqld.cnf                     [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[2d[39;49m[36m#[3d# The MySQL database server configuration file.[4d#[5d# One can use all long options that the program supports.[6d# Run program with --help to get a list of available options and with[7d# --print-defaults to see which it would actually understand and use.[8d#[9d# For explanations see[10d# http://dev.mysql.com/doc/mysql/en/server-system-variables.html[12d# Here is entries for some specific programs[13d# The following values assume you have at least 32M ram[15d[39m(B[m[mysqld][16d[36m#[17d# * Basic Settings[18d#[19d[39m(B[muser[19;17H= mysql[20d[36m# pid-file      = /var/run/mysqld/mysqld.pid[21d# socket        = /var/run/mysqld/mysqld.sock[2d[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[36m# port          = 3306[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[36m# datadir       = /var/lib/mysql[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[36m# If MySQL is running as a replication slave, this should be[39m(B[m[?12l[?25h[?25l7[2;21r8
+[1;24r[21;1H[36m# changed. Ref https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.[39m(B[0;7m>[21;1H(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# tmpdir[16X[21;25H= /tmp[39m(B[m[K[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# Instead of skip-networking the default is now to listen only on[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# localhost which is more compatible and is not less secure.[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#bind-address           = 127.0.0.1[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#skip-networking[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#skip-bind-address[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# * Fine Tuning[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m#[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1Hkey_buffer_size[21;25H= 16M[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# max_allowed_packet    = 64M[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# thread_stack          = 256K[39m(B[m[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[?12l[?25h[?25l7[2;22r8[22d
+[1;24r[21;1H[36m# thread_cache_size       = -1[39m(B[m[?12l[?25h[?25l[23d[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pmysql -u root -p[6Pcript work.txtudo mysql -u root -psystemctl restart mysql
+]0;ng@ng-TravelMate-5742: ~[01;32mng@ng-TravelMate-5742[00m:[01;34m~[00m$ sudo systemctl restart mysqlnano /etc/mysql/mysql.conf.d/mysqld.cnf[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Pmysql -u root -p
+Enter password: 
