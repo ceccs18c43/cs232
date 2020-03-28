@@ -1,0 +1,66 @@
+CEC CS 18 C 43
+NIVEA GIGEN
+ip address 192.168.43.157
+mac address 1C:75:08:cd:85:fd
+
+--------------------------------
+#1: Aim/task:Kernel compilation (T8.4)
+---------------------------------
+
+Command/Shell script/Program name
+---------------------------------
+       # Download the latest stable kernel 
+	      wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.13.tar.xz
+
+       # To extract the source code
+	     unxz -v linux-5.5.13.tar.xz
+      
+       # Download the PGP Signature for the kernel (source: kernel.org)
+	     wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.5.13.tar.sign
+
+       # To verify the kernel tartball with GnuPG
+	       gpg --verify linux-5.5.13.tar.sign
+
+       #Grab the public key from the PGP keyserver to verify the signature
+	 	$ gpg --recv-keys  647F28654894E3BD457199BE38DBBDC86092693E
+
+       # To verify gpg  key:
+		$ gpg --verify linux-5.5.13.tar.sign
+
+       # To extract the tartball
+	      tar xvf linux-5.5.13.tar
+
+         cd linux-5.5.13
+	
+      # To create the configuration file and Copying the existing config files
+             cp -v /boot/config-$(uname -r) .config
+ 	
+      # Install Development tools required to compile the kernel
+           sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+	
+     # Compile the Kernel 
+           make -j $(nproc)
+	
+----------------------------------------------------------------------------------
+Output:
+--------------------------------------------------------------------------------------
+     # The kernel is compiled successfully to linux 5.5.13 .
+
+     # Screenshot of the compiled  kernel files is attached as capture.png
+     
+     # The PGP signature of linux 5.5.13 is attached as linux-5.5.13.tar.sign
+
+
+---------------------------------------------------------------------------------------
+Remarks :
+----------------------------------------------------------------------------------------
+
+#  The linux 5.5.13 is the lastest version realsed on 25th march 2020.
+
+# The kernel files couldn't be uploaded due to large file size.
+
+
+
+
+---------------------------------------------------------------------------------------
+
