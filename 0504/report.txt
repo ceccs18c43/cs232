@@ -1,0 +1,196 @@
+CEC CS 18 C 43 
+ 05-04-2020
+ NIVEA GIGEN
+ ip address 192.168.43.157
+ mac address 1C:75:08:cd:85:fd
+--------------------------------------------
+#1: Aim/task  : S6
+Shell script to implement a menu driven calculator with following functions 
+
+1.  Addition 
+2.  Subtraction 
+3.  Multiplication 
+4.  Division 
+5.  Modulus
+
+--------------------------------------------
+
+Command/Shell script/Program name
+
+---------------------------------------------
+    # shell script
+        mdcal.sh
+
+    #To execute script file
+        bash mdcal.sh  
+ -----------------------------------------------
+
+Input and Output:
+----------------------------------------------------
+....MENU DRIVEN CALCULATOR....
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+1
+Enter the  augend
+4
+Enter the addend
+5
+Sum = 9
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+2
+Enter the subrahend
+34
+Enter the minuend
+3
+Difference = 31
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+3
+Enter the multiplicand
+3
+Enter the multiplier
+5
+Product = 15
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+4
+Enter the dividend
+3
+Enter the divisor
+5
+Quotient = 0
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+5
+Enter the first number
+5
+Enter the second number
+3
+Remainder = 2
+*********************************
+Do want to continue?(Y/N)
+N
+--------------------------------------------------
+
+Remarks if any:
+----------------------------------------------------
+
+-----------------------------------------------------------------------
+------------------------------------------------------------------------
+
+#2: Aim/task: S4
+
+Shell script to show various system configuration like 
+
+  * Currently logged user and his login name  
+  * Your current shell 
+  * Your home directory 
+  * Your operating system type 
+  * Your current path setting 
+  * Your current working directory 
+  * Number of users currently logged in
+
+---------------------------------------------------------------------------
+
+Command/Shell script/Program name
+
+--------------------------------------------------------------------------
+    # shell script
+        systemconfig1.sh
+
+    #To execute script file
+        bash systemconfig1.sh  
+ -------------------------------------------------------------------------
+
+Input and Output:
+-----------------------------------------------------------------------------
+
+ screenshot 1.png is attached to show various system configuration such as
+    
+  * Currently logged user and his login name  
+  * Your current shell 
+  * Your home directory 
+  * Your operating system type 
+  * Your current path setting 
+  * Your current working directory 
+  * Number of users currently logged in
+
+--------------------------------------------------------------------------------
+Remark if any
+
+--------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
+
+#3: Aim/task: S5
+
+Shell script to show various system configuration like 
+    * OS and version, release number, kernel version 
+    * All available shells 
+    * Computer CPU information like processor type, speed etc 
+    * Memory information 
+    * Hard disk information like size of hard-disk, cache memory, model etc 
+    * File system (Mounted) 
+
+---------------------------------------------------------------------------
+
+Command/Shell script/Program name
+
+--------------------------------------------------------------------------
+    # shell script
+        systemconfig2.sh
+
+    #To execute script file
+        bash systemconfig2.sh  
+ -------------------------------------------------------------------------
+
+Input and Output:
+-----------------------------------------------------------------------------
+
+    File out.txt is attached to show system configuration such as
+    
+    * OS and version, release number, kernel version 
+    * All available shells 
+    * Computer CPU information like processor type, speed etc 
+    * Memory information 
+    * Hard disk information like size of hard-disk, cache memory, model etc 
+    * File system (Mounted) 
+
+
+--------------------------------------------------------------------------------
+Remark if any
+
+--------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
