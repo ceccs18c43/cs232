@@ -1,0 +1,270 @@
+
+ The operating system version,release number  :
+
+NAME="Ubuntu"
+VERSION="19.10 (Eoan Ermine)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 19.10"
+VERSION_ID="19.10"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=eoan
+UBUNTU_CODENAME=eoan
+
+ OPerating system kernel version              :
+
+5.3.0-42-generic
+
+ All available shells                         :
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/bin/dash
+/usr/bin/dash
+
+ CPU information                              :
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+model name	: Intel(R) Core(TM) i3 CPU       M 380  @ 2.53GHz
+stepping	: 5
+microcode	: 0x7
+cpu MHz		: 1787.287
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm arat flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5055.15
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+model name	: Intel(R) Core(TM) i3 CPU       M 380  @ 2.53GHz
+stepping	: 5
+microcode	: 0x7
+cpu MHz		: 1524.394
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm arat flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5055.15
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+model name	: Intel(R) Core(TM) i3 CPU       M 380  @ 2.53GHz
+stepping	: 5
+microcode	: 0x7
+cpu MHz		: 1460.624
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 2
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm arat flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5055.15
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+model name	: Intel(R) Core(TM) i3 CPU       M 380  @ 2.53GHz
+stepping	: 5
+microcode	: 0x7
+cpu MHz		: 1402.956
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 2
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm arat flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5055.15
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+ Memory information                           :
+
+MemTotal:        3696736 kB
+MemFree:          820532 kB
+MemAvailable:    1794792 kB
+Buffers:           64600 kB
+Cached:          1264240 kB
+SwapCached:            0 kB
+Active:          1780336 kB
+Inactive:         692188 kB
+Active(anon):    1297232 kB
+Inactive(anon):    36208 kB
+Active(file):     483104 kB
+Inactive(file):   655980 kB
+Unevictable:      152448 kB
+Mlocked:              16 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Dirty:               112 kB
+Writeback:             0 kB
+AnonPages:       1296076 kB
+Mapped:           404392 kB
+Shmem:            189744 kB
+KReclaimable:      80756 kB
+Slab:             174852 kB
+SReclaimable:      80756 kB
+SUnreclaim:        94096 kB
+KernelStack:       10848 kB
+PageTables:        16916 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     3945516 kB
+Committed_AS:    5507244 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       23652 kB
+VmallocChunk:          0 kB
+Percpu:             5536 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      193640 kB
+DirectMap2M:     3663872 kB
+
+ Hard disk information                         :
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.8G     0  1.8G   0% /dev
+tmpfs           362M  1.6M  360M   1% /run
+/dev/sda5        79G   34G   41G  46% /
+tmpfs           1.8G   16M  1.8G   1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           1.8G     0  1.8G   0% /sys/fs/cgroup
+/dev/loop0       45M   45M     0 100% /snap/gtk-common-themes/1353
+/dev/loop1      4.3M  4.3M     0 100% /snap/gnome-calculator/544
+/dev/loop2       55M   55M     0 100% /snap/core18/1223
+/dev/loop3      4.4M  4.4M     0 100% /snap/gnome-calculator/704
+/dev/loop6      150M  150M     0 100% /snap/gnome-3-28-1804/71
+/dev/loop8       15M   15M     0 100% /snap/gnome-characters/495
+/dev/loop5       92M   92M     0 100% /snap/core/8689
+/dev/loop4       90M   90M     0 100% /snap/core/8268
+/dev/loop7       55M   55M     0 100% /snap/core18/1668
+/dev/loop12      45M   45M     0 100% /snap/gtk-common-themes/1440
+/dev/loop11      15M   15M     0 100% /snap/gnome-characters/399
+/dev/loop10     1.0M  1.0M     0 100% /snap/gnome-logs/93
+/dev/loop9      1.0M  1.0M     0 100% /snap/gnome-logs/81
+/dev/loop13     161M  161M     0 100% /snap/gnome-3-28-1804/116
+tmpfs           362M   64K  361M   1% /run/user/1000
+
+ File system (Mounted)                        :
+
+sysfs                                             on  /sys                             type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+proc                                              on  /proc                            type  proc             (rw,nosuid,nodev,noexec,relatime)
+udev                                              on  /dev                             type  devtmpfs         (rw,nosuid,relatime,size=1820908k,nr_inodes=455227,mode=755)
+devpts                                            on  /dev/pts                         type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs                                             on  /run                             type  tmpfs            (rw,nosuid,noexec,relatime,size=369676k,mode=755)
+/dev/sda5                                         on  /                                type  ext4             (rw,relatime,errors=remount-ro)
+securityfs                                        on  /sys/kernel/security             type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+tmpfs                                             on  /dev/shm                         type  tmpfs            (rw,nosuid,nodev)
+tmpfs                                             on  /run/lock                        type  tmpfs            (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs                                             on  /sys/fs/cgroup                   type  tmpfs            (ro,nosuid,nodev,noexec,mode=755)
+cgroup2                                           on  /sys/fs/cgroup/unified           type  cgroup2          (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup                                            on  /sys/fs/cgroup/systemd           type  cgroup           (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore                                            on  /sys/fs/pstore                   type  pstore           (rw,nosuid,nodev,noexec,relatime)
+bpf                                               on  /sys/fs/bpf                      type  bpf              (rw,nosuid,nodev,noexec,relatime,mode=700)
+cgroup                                            on  /sys/fs/cgroup/memory            type  cgroup           (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup                                            on  /sys/fs/cgroup/cpu,cpuacct       type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup                                            on  /sys/fs/cgroup/hugetlb           type  cgroup           (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup                                            on  /sys/fs/cgroup/devices           type  cgroup           (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup                                            on  /sys/fs/cgroup/net_cls,net_prio  type  cgroup           (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup                                            on  /sys/fs/cgroup/freezer           type  cgroup           (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup                                            on  /sys/fs/cgroup/pids              type  cgroup           (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup                                            on  /sys/fs/cgroup/blkio             type  cgroup           (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup                                            on  /sys/fs/cgroup/cpuset            type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup                                            on  /sys/fs/cgroup/perf_event        type  cgroup           (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup                                            on  /sys/fs/cgroup/rdma              type  cgroup           (rw,nosuid,nodev,noexec,relatime,rdma)
+systemd-1                                         on  /proc/sys/fs/binfmt_misc         type  autofs           (rw,relatime,fd=34,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=15649)
+mqueue                                            on  /dev/mqueue                      type  mqueue           (rw,nosuid,nodev,noexec,relatime)
+hugetlbfs                                         on  /dev/hugepages                   type  hugetlbfs        (rw,relatime,pagesize=2M)
+debugfs                                           on  /sys/kernel/debug                type  debugfs          (rw,nosuid,nodev,noexec,relatime)
+fusectl                                           on  /sys/fs/fuse/connections         type  fusectl          (rw,nosuid,nodev,noexec,relatime)
+configfs                                          on  /sys/kernel/config               type  configfs         (rw,nosuid,nodev,noexec,relatime)
+/var/lib/snapd/snaps/gtk-common-themes_1353.snap  on  /snap/gtk-common-themes/1353     type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_544.snap    on  /snap/gnome-calculator/544       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1223.snap             on  /snap/core18/1223                type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_704.snap    on  /snap/gnome-calculator/704       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_71.snap      on  /snap/gnome-3-28-1804/71         type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_495.snap    on  /snap/gnome-characters/495       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8689.snap               on  /snap/core/8689                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8268.snap               on  /snap/core/8268                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1668.snap             on  /snap/core18/1668                type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1440.snap  on  /snap/gtk-common-themes/1440     type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_399.snap    on  /snap/gnome-characters/399       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_93.snap           on  /snap/gnome-logs/93              type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_81.snap           on  /snap/gnome-logs/81              type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_116.snap     on  /snap/gnome-3-28-1804/116        type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+tmpfs                                             on  /run/user/1000                   type  tmpfs            (rw,nosuid,nodev,relatime,size=369672k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse                                        on  /run/user/1000/gvfs              type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+/dev/fuse                                         on  /run/user/1000/doc               type  fuse             (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)

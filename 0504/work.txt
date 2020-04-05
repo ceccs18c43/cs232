@@ -1,0 +1,496 @@
+Script started on 2020-04-05 08:16:28+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/0504[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/0504[00m$ sudo nano mdcal.sh
+[sudo] password for ng: 
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.3                        mdcal.sh                                  [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[2d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[2d[32mread[39m(B[m n2
+[3d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m / (B[0;1m[31m$n2(B[0m[32m`
+[4d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Quotient = "[31m$sum(B[0m[32m;;
+[5d[39m(B[m5[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the first number"
+[6d(B[0m[32mread[39m(B[m n1
+[7d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Enter the second number"
+[8d(B[0m[32mread[39m(B[m n2
+[10d sum[32m=`[39m(B[mexpr (B[0;1m[31m$n1[39m(B[m % (B[0;1m[31m$n2(B[0m[32m`
+[11d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"Remainder = "[31m$sum(B[0m[32m;;
+[12d[39m(B[m*[32m)(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"*****  INVALID  *****"(B[0m[32m;;
+[13desac
+[14d(B[0;1m[34mecho[39m(B[m (B[0;1m[33m"*********************************"
+[15d[34mecho[39m(B[m (B[0;1m[33m"Do want to continue?(Y/N)"
+[16d(B[0m[32mread[39m(B[m ch
+[17d[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[31m$ch[39m(B[m [32m!=[39m(B[m (B[0;1m[33m"y"[39m(B[m [32m]
+[18dthen
+[19dexit
+[20dfi
+[21ddone
+[22d[39m(B[m[K[21;5H[?12l[?25h[?25l
+[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K
+[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l
+[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File
+[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files
+[22d(B[0;7mFile Name to Write: mdcal.sh
+(B[m[22;29H[?12l[?25h[?25l
+[K[1;79H[22;34H(B[0;7m[ Writing... ](B[m[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 58 lines ](B[m
+[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/0504[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/0504[00m$ bash mdcal.c[Ksh
+[H[2J[3J....MENU DRIVEN CALCULATOR....
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+1
+Enter the  augend
+4
+Enter the addend
+5
+Sum = 9
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+2
+Enter the subrahend
+34
+Enter the minuend
+3
+Difference = 31
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+3
+Enter the multiplicand
+3
+Enter the multiplier
+5
+Product = 15
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+3
+Enter the multiplicand
+2
+Enter the multiplier
+5
+Product = 10
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+4
+Enter the dividend
+3
+Enter the divisor
+5
+Quotient = 0
+*********************************
+Do want to continue?(Y/N)
+y
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Modulus
+***** ENTER YOUR CHOICE *****
+5
+Enter the first number
+5
+Enter the second number
+3
+Remainder = 2
+*********************************
+Do want to continue?(Y/N)
+n
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/0504[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/0504[00m$ exit
+exit
+
+Script done on 2020-04-05 08:20:43+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2020-04-04 22:54:04+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/0504[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/0504[00m$ sudo nano systemconfig1.sh
+[sudo] password for ng: 
+[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.3                    systemconfig1.sh                              [1;79H(B[m
+[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos
+[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line
+[22d[2d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m
+[2d[36m#!/bin/bash
+[3d(B[0;1m[34mecho[35m -e[39m(B[m (B[0;1m[33m" \n The currently logged user is        : $USER\n"
+[4d[34mecho[35m -e[39m(B[m (B[0;1m[33m" \n The current login name is           : $LOGNAME\n"
+[5d[34mecho[35m -e[39m(B[m (B[0;1m[33m" \n The current shell[19X[5;50H: $SHELL\n"
+[6d[34mecho[35m -e[39m(B[m (B[0;1m[33m" \n The current home directory          : $HOME\n"
+[7d[34mecho[35m -e[39m(B[m (B[0;1m[33m" \n The operating system type           :"
+[8d[39m(B[muname(B[0;1m[35m -o
+[9d[34mecho[35m -e[39m(B[m (B[0;1m[33m"\n The current path setting             :$PATH\n"
+[10d[34mecho[35m -e[39m(B[m (B[0;1m[33m"\n The current working directory        :"
+[11d[39m(B[mpwd
+[12d(B[0;1m[34mecho[35m -e[39m(B[m (B[0;1m[33m"\n The number of users currently logged :"
+[13d[39m(B[mwho
+[22d[K[13;4H[?12l[?25h[?25l
+[22d(B[0;7mSave modified buffer?                                                           [23;1H Y(B[m Yes[K
+[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;23H[?12l[?25h[?25l
+[23d(B[0;7m^G(B[m Get Help[23;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[23;61H(B[0;7mM-B(B[m Backup File
+[24d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[24;61H(B[0;7m^T(B[m To Files
+[22d(B[0;7mFile Name to Write: systemconfig1.sh
+(B[m[22;37H[?12l[?25h[?25l
+[K[1;79H[22;34H(B[0;7m[ Writing... ](B[m[1;71H(B[0;7m        (B[m[22;32H(B[0;7m[ Wrote 12 lines ](B[m
+[J[24;80H[?12l[?25h[24;1H[?1049l[23;0;0t
+[?1l>]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/0504[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/0504[00m$ bash systemconfig1.sh
+ 
+ The currently logged user is        : ng
+
+ 
+ The current login name is           : ng
+
+ 
+ The current shell                   : /bin/bash
+
+ 
+ The current home directory          : /home/ng
+
+ 
+ The operating system type           :
+GNU/Linux
+
+ The current path setting             :/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+
+ The current working directory        :
+/home/ng/ceccs18c43/cs232/0504
+
+ The number of users currently logged :
+ng       :0           2020-04-04 20:49 (:0)
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/0504[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/0504[00m$ 
+[K]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/0504[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/0504[00m$ 
+[K]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/0504[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/0504[00m$ sudo nano systemconfig2.sh
+[?1049h[22;0;0t[1;38r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[36;66H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.3                                                   systemconfig2.sh                                                             [1;141H(B[m
+[37d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text  (B[0;7mM-](B[m To Bracket
+[38d(B[0;7m^X(B[m Exit[38;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text  (B[0;7m^Q(B[m Where Was
+[36d[2d[39;49m(B[m[?12l[?25h[?25l[1;133H(B[0;7mModified(B[m
+[2d[36m#!/bin/bash
+[3d(B[0;1m[34mecho[35m -e[39m(B[m (B[0;1m[33m"\n The operating system version,release number  :\n"
+[4d[34mcat[39m(B[m /etc/os-release
+[5d(B[0;1m[34mecho[35m -e[39m(B[m (B[0;1m[33m"\n OPerating system kernel version[14X[5;58H:\n"
+[6d[39m(B[muname(B[0;1m[35m -r
+[7d[34mecho[35m -e[39m(B[m (B[0;1m[33m"\n All available shells[25X[7;58H:\n"
+[8d[34mcat[39m(B[m /etc/shells
+[9d(B[0;1m[34mecho[35m -e[39m(B[m (B[0;1m[33m"\n CPU information[30X[9;58H:\n"
+[10d[34mcat[39m(B[m /proc/cpuinfo
+[11d(B[0;1m[34mecho[35m -e[39m(B[m (B[0;1m[33m"\n Memory information[27X[11;58H:\n"
+[12d[34mcat[39m(B[m /proc/meminfo
+[13d(B[0;1m[34mecho[35m -e[39m(B[m (B[0;1m[33m"\n Hard disk information[25X[13;59H:\n"
+[14d[39m(B[mdf(B[0;1m[35m -h
+[15d[34mecho[35m -e[39m(B[m (B[0;1m[33m"\n File system (Mounted)[24X[15;58H:\n"
+[16d[39m(B[mmount [32m|[39m(B[m column(B[0;1m[35m -t
+[36d[39m(B[m[K[16;18H[?12l[?25h[?25l
+[36d(B[0;7mSave modified buffer?                                                                                                                         [37;1H Y(B[m Yes[K
+[38d(B[0;7m N(B[m No  [38;16H (B[0;7m^C(B[m Cancel[K[36;23H[?12l[?25h[?25l
+[37d(B[0;7m^G(B[m Get Help[37;36H(B[0;7mM-D(B[m DOS Format[37;71H(B[0;7mM-A(B[m Append[37;106H(B[0;7mM-B(B[m Backup File
+[38d(B[0;7m^C(B[m Cancel[17G         [38;36H(B[0;7mM-M(B[m Mac Format[38;71H(B[0;7mM-P(B[m Prepend[38;106H(B[0;7m^T(B[m To Files
+[36d(B[0;7mFile Name to Write: systemconfig2.sh
+(B[m[36;37H[?12l[?25h[?25l
+[K[1;141H[36;65H(B[0;7m[ Writing... ](B[m[1;133H(B[0;7m        (B[m[36;63H(B[0;7m[ Wrote 15 lines ](B[m
+[J[38;142H[?12l[?25h[38;1H[?1049l[23;0;0t
+[?1l>]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/0504[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/0504[00m$ bash systemconfig2.sh
+
+ The operating system version,release number  :
+
+NAME="Ubuntu"
+VERSION="19.10 (Eoan Ermine)"
+ID=ubuntu
+ID_LIKE=debian
+PRETTY_NAME="Ubuntu 19.10"
+VERSION_ID="19.10"
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+VERSION_CODENAME=eoan
+UBUNTU_CODENAME=eoan
+
+ OPerating system kernel version              :
+
+5.3.0-42-generic
+
+ All available shells                         :
+
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/bin/dash
+/usr/bin/dash
+
+ CPU information                              :
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+model name	: Intel(R) Core(TM) i3 CPU       M 380  @ 2.53GHz
+stepping	: 5
+microcode	: 0x7
+cpu MHz		: 1539.500
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm arat flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5055.07
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+model name	: Intel(R) Core(TM) i3 CPU       M 380  @ 2.53GHz
+stepping	: 5
+microcode	: 0x7
+cpu MHz		: 1315.549
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm arat flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5055.07
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+model name	: Intel(R) Core(TM) i3 CPU       M 380  @ 2.53GHz
+stepping	: 5
+microcode	: 0x7
+cpu MHz		: 1346.343
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 2
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm arat flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5055.07
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 37
+model name	: Intel(R) Core(TM) i3 CPU       M 380  @ 2.53GHz
+stepping	: 5
+microcode	: 0x7
+cpu MHz		: 1471.869
+cache size	: 3072 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 2
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt lahf_lm pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid dtherm arat flush_l1d
+bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs itlb_multihit
+bogomips	: 5055.07
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+ Memory information                           :
+
+MemTotal:        3696712 kB
+MemFree:          555944 kB
+MemAvailable:    1609920 kB
+Buffers:           70144 kB
+Cached:          1354312 kB
+SwapCached:            0 kB
+Active:          1867604 kB
+Inactive:         821400 kB
+Active(anon):    1434400 kB
+Inactive(anon):    49764 kB
+Active(file):     433204 kB
+Inactive(file):   771636 kB
+Unevictable:      167836 kB
+Mlocked:              16 kB
+SwapTotal:       2097148 kB
+SwapFree:        2097148 kB
+Dirty:               228 kB
+Writeback:             0 kB
+AnonPages:       1432360 kB
+Mapped:           424084 kB
+Shmem:            219620 kB
+KReclaimable:     108932 kB
+Slab:             206412 kB
+SReclaimable:     108932 kB
+SUnreclaim:        97480 kB
+KernelStack:       11288 kB
+PageTables:        17592 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     3945504 kB
+Committed_AS:    5691140 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       24080 kB
+VmallocChunk:          0 kB
+Percpu:             5632 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      197736 kB
+DirectMap2M:     3659776 kB
+
+ Hard disk information                         :
+
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.8G     0  1.8G   0% /dev
+tmpfs           362M  1.6M  360M   1% /run
+/dev/sda5        79G   34G   41G  46% /
+tmpfs           1.8G   32M  1.8G   2% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           1.8G     0  1.8G   0% /sys/fs/cgroup
+/dev/loop0       15M   15M     0 100% /snap/gnome-characters/399
+/dev/loop2      1.0M  1.0M     0 100% /snap/gnome-logs/81
+/dev/loop6       55M   55M     0 100% /snap/core18/1223
+/dev/loop3       90M   90M     0 100% /snap/core/8268
+/dev/loop5      161M  161M     0 100% /snap/gnome-3-28-1804/116
+/dev/loop1       55M   55M     0 100% /snap/core18/1668
+/dev/loop7       15M   15M     0 100% /snap/gnome-characters/495
+/dev/loop11      92M   92M     0 100% /snap/core/8689
+/dev/loop4      150M  150M     0 100% /snap/gnome-3-28-1804/71
+/dev/loop8      4.3M  4.3M     0 100% /snap/gnome-calculator/544
+/dev/loop10     1.0M  1.0M     0 100% /snap/gnome-logs/93
+/dev/loop9      4.4M  4.4M     0 100% /snap/gnome-calculator/704
+/dev/loop13      45M   45M     0 100% /snap/gtk-common-themes/1353
+/dev/loop12      45M   45M     0 100% /snap/gtk-common-themes/1440
+tmpfs           362M   48K  361M   1% /run/user/1000
+
+ File system (Mounted)                        :
+
+sysfs                                             on  /sys                             type  sysfs            (rw,nosuid,nodev,noexec,relatime)
+proc                                              on  /proc                            type  proc             (rw,nosuid,nodev,noexec,relatime)
+udev                                              on  /dev                             type  devtmpfs         (rw,nosuid,relatime,size=1820896k,nr_inodes=455224,mode=755)
+devpts                                            on  /dev/pts                         type  devpts           (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs                                             on  /run                             type  tmpfs            (rw,nosuid,noexec,relatime,size=369672k,mode=755)
+/dev/sda5                                         on  /                                type  ext4             (rw,relatime,errors=remount-ro)
+securityfs                                        on  /sys/kernel/security             type  securityfs       (rw,nosuid,nodev,noexec,relatime)
+tmpfs                                             on  /dev/shm                         type  tmpfs            (rw,nosuid,nodev)
+tmpfs                                             on  /run/lock                        type  tmpfs            (rw,nosuid,nodev,noexec,relatime,size=5120k)
+tmpfs                                             on  /sys/fs/cgroup                   type  tmpfs            (ro,nosuid,nodev,noexec,mode=755)
+cgroup2                                           on  /sys/fs/cgroup/unified           type  cgroup2          (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup                                            on  /sys/fs/cgroup/systemd           type  cgroup           (rw,nosuid,nodev,noexec,relatime,xattr,name=systemd)
+pstore                                            on  /sys/fs/pstore                   type  pstore           (rw,nosuid,nodev,noexec,relatime)
+bpf                                               on  /sys/fs/bpf                      type  bpf              (rw,nosuid,nodev,noexec,relatime,mode=700)
+cgroup                                            on  /sys/fs/cgroup/cpu,cpuacct       type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpu,cpuacct)
+cgroup                                            on  /sys/fs/cgroup/cpuset            type  cgroup           (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup                                            on  /sys/fs/cgroup/freezer           type  cgroup           (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup                                            on  /sys/fs/cgroup/blkio             type  cgroup           (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup                                            on  /sys/fs/cgroup/pids              type  cgroup           (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup                                            on  /sys/fs/cgroup/memory            type  cgroup           (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup                                            on  /sys/fs/cgroup/hugetlb           type  cgroup           (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup                                            on  /sys/fs/cgroup/net_cls,net_prio  type  cgroup           (rw,nosuid,nodev,noexec,relatime,net_cls,net_prio)
+cgroup                                            on  /sys/fs/cgroup/perf_event        type  cgroup           (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup                                            on  /sys/fs/cgroup/devices           type  cgroup           (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup                                            on  /sys/fs/cgroup/rdma              type  cgroup           (rw,nosuid,nodev,noexec,relatime,rdma)
+systemd-1                                         on  /proc/sys/fs/binfmt_misc         type  autofs           (rw,relatime,fd=33,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=14740)
+mqueue                                            on  /dev/mqueue                      type  mqueue           (rw,nosuid,nodev,noexec,relatime)
+hugetlbfs                                         on  /dev/hugepages                   type  hugetlbfs        (rw,relatime,pagesize=2M)
+debugfs                                           on  /sys/kernel/debug                type  debugfs          (rw,nosuid,nodev,noexec,relatime)
+fusectl                                           on  /sys/fs/fuse/connections         type  fusectl          (rw,nosuid,nodev,noexec,relatime)
+configfs                                          on  /sys/kernel/config               type  configfs         (rw,nosuid,nodev,noexec,relatime)
+/var/lib/snapd/snaps/gnome-characters_399.snap    on  /snap/gnome-characters/399       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_81.snap           on  /snap/gnome-logs/81              type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1223.snap             on  /snap/core18/1223                type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8268.snap               on  /snap/core/8268                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_116.snap     on  /snap/gnome-3-28-1804/116        type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core18_1668.snap             on  /snap/core18/1668                type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-characters_495.snap    on  /snap/gnome-characters/495       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/core_8689.snap               on  /snap/core/8689                  type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-3-28-1804_71.snap      on  /snap/gnome-3-28-1804/71         type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_544.snap    on  /snap/gnome-calculator/544       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-logs_93.snap           on  /snap/gnome-logs/93              type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gnome-calculator_704.snap    on  /snap/gnome-calculator/704       type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1353.snap  on  /snap/gtk-common-themes/1353     type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+/var/lib/snapd/snaps/gtk-common-themes_1440.snap  on  /snap/gtk-common-themes/1440     type  squashfs         (ro,nodev,relatime,x-gdu.hide)
+tmpfs                                             on  /run/user/1000                   type  tmpfs            (rw,nosuid,nodev,relatime,size=369668k,mode=700,uid=1000,gid=1000)
+gvfsd-fuse                                        on  /run/user/1000/gvfs              type  fuse.gvfsd-fuse  (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+/dev/fuse                                         on  /run/user/1000/doc               type  fuse             (rw,nosuid,nodev,relatime,user_id=1000,group_id=1000)
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/0504[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/0504[00m$ exit
+exit
+
+Script done on 2020-04-04 22:59:07+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2020-04-05 09:20:53+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/0504[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/0504[00m$ bash systemconfig2.sh[6Pscript work.txtexit[K[K[K[K[Kbash systemconfig2.sh > out.txt
+]0;ng@ng-TravelMate-5742: ~/ceccs18c43/cs232/0504[01;32mng@ng-TravelMate-5742[00m:[01;34m~/ceccs18c43/cs232/0504[00m$ exit
+exit
+
+Script done on 2020-04-05 09:21:52+05:30 [COMMAND_EXIT_CODE="0"]
